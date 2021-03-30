@@ -20,7 +20,38 @@ A short (or shorting) means that you're aiming to sell an asset at a short-ratio
 
 A long is taking on the position of investing in the same way as when you buy a stock, you buy it in at a position where you are comfortable with, aiming to let it increase over time (months to years, usually).
 
-## 
+## Bid
+
+A bid is the maximum price that a buyer is willing to pay for an asset. The bid price in most exchanges is depicted within the order book.
+
+## Ask
+
+'Ask' refers to the minimum price a seller is willing to receive for their assets on the market. Just like with the 'bid', the 'ask' is depicted within the order book.
+
+## Spread
+
+A spread is the difference between the buy and sell prices that are quoted. Within spreads there are spread bets in which a trader makes a decision on whether the price of the coin might go up or down and will then make a profit or a loss based on whether their prediction is correct or not. The greater the price movement, the greater the profit or loss.
+
+## Fee
+
+A fee is the cost of the transaction costs when buying and/or transferring from one wallet to another wallet. Most exchanges have an innate fee based off a percentage, which you then have to pay upon every transaction.
+
+## Realised drawdown
+
+The realised drawdown is the percentage between the peak and the subsequent trough, meaning that if a trading account has 1000 USD in it, and the funds drop to 900USD before moving back to anything above 1000USD, then the trading account witnessed a 10% drawdown. If the trader sells at that point, it is a realised drawdown, given it has come to realisation.
+
+## Seen drawdown
+
+The seen drawdown is the percentage between the peak and the same as a realised drawdown, except that with the realised drawdown, you actually sold, and witnessed a drawdown. The seen drawdown is merely the peak-to-trough that has been witnessed.
+
+## Market change
+
+A market change depicts the change in the market from a 'bear' market, a stable market, or a 'bull' market. The meaning between these is that in a 'bear' market, the market itself is declining and it encourages selling, however crypto can be bought at a lower price during this market. In contrary, a 'bull' market encourages buying, but selling during a 'bull' market, profits can easily be made given the market trend is on the uprise. A stable market is a market that is mostly stable, slightly going up and down; a change between markets is what would be called a market change.
+
+## TA
+
+Technical Analysis (TA) is the historical analysis of a cryptocurrency, describing and analyzing the historic price and volume to predict a future movement of assets via the hands of several indicators such as the EMA, MACD, UO, and so forth.
+
 ## ROI
 
 Return On Investment (ROI) is widely known in cryptocurrency, it is a ratio or percentage value that represents profitability or efficiency of a certain trade or agreement. It is a tool that's widely used - including strategies for DemaTrading. ROI can be portrayed in an absolute ratio (such as 0.35) or a value percentage (such as 35%). The calculation for ROI is as followed:

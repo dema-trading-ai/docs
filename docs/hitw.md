@@ -2,7 +2,6 @@
 
 DemaTrading is able to facilitate you with a platform for your algorithms, strategies, and bots to flourish! For you - as an algorithm creator - this means that our platform is able to host your strategies to investors and to assist you in getting more out of your algorithms!
 
-***
 ## How does it work?
 
 Well, very simple! Let's show you via the hands of a simple calculation example!

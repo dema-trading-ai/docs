@@ -13,6 +13,7 @@ Running the Engine just takes a few simple things:
 
 ### Requirements for running without Docker (alternative)
 Running the Engine just takes a few simple things:
+
 1. Have Python 3 installed ([click here to download Python](https://www.python.org/downloads/)).
 2. Have pip installed (Pip should be installed automatically on any version of Python that is 2.7 or above. If not installed on your system [click here!](https://pip.pypa.io/en/stable/installing/)).
 3. A code editor such as [Pycharm](https://www.jetbrains.com/pycharm/) or [VSCode](https://code.visualstudio.com).

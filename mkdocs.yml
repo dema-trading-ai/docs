@@ -52,7 +52,7 @@ theme:
           toggle:
               icon: material/toggle-switch
               name: Switch to light mode
-
+repo_name: dema-trading-ai/engine
 repo_url: https://github.com/dema-trading-ai/engine
 extra_css:
     - css/extra.css

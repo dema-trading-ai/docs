@@ -6,19 +6,19 @@ There are multiple possibilities for running our backtesting engine. For both of
 
 ### Requirements for running with Docker (recommended)
 Running the Engine just takes a few simple things:
-1. Have Docker installed on your system ([click here to download Docker](https://docs.docker.com/get-docker/))
+
+1. Have Docker installed on your system ([click here to download Docker](https://docs.docker.com/get-docker/)).
 2. A code editor such as [Pycharm](https://www.jetbrains.com/pycharm/) or [VSCode](https://code.visualstudio.com).
 3. Ability to copy + paste and some motivation to figure things out. 
 
 ### Requirements for running without Docker (alternative)
 Running the Engine just takes a few simple things:
-1. Have Python 3 installed ([click here to download Python](https://www.python.org/downloads/))
+1. Have Python 3 installed ([click here to download Python](https://www.python.org/downloads/)).
 2. Have pip installed (Pip should be installed automatically on any version of Python that is 2.7 or above. If not installed on your system [click here!](https://pip.pypa.io/en/stable/installing/)).
 3. A code editor such as [Pycharm](https://www.jetbrains.com/pycharm/) or [VSCode](https://code.visualstudio.com).
-4. Download and install [Xcode12](https://developer.apple.com/download/)
+4. Download and install [Xcode12](https://developer.apple.com/download/).
 5. Install the TA-Lib dependencies ([follow the instructions given underneath the dependencies header](https://github.com/mrjbq7/ta-lib)).
-6. Have this repository cloned on your computer. 
-
+6. Have this repository cloned on your computer.
 
 ## Running the Engine.
 ### Running with Docker 

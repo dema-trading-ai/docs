@@ -2,26 +2,26 @@ site_name: DemaTrading.ai
 nav:
     - Home: index.md
     - Getting Paid:
-      - Calculation example: calculationexample.md
-      - For algo creators: algocreatorpaid.md
-      - For investors: investorpaid.md
-      - Termsheet: termsheet.md
+      - Calculation example: /getting_paid/calculationexample.md
+      - For algo creators: /getting_paid/algocreatorpaid.md
+      - For investors: /getting_paid/investorpaid.md
+      - Termsheet: /getting_paid/termsheet.md
     - Getting started:
-        - Installation: installation.md
-        - Trading 101: trading101.md
-        - Strategy Examples: strategyexamples.md
-        - Creating your own strategies: creatingstrat.md
-        - Advanced strategy creation: advcreatingstrat.md
+        - Installation: /getting_started/installation.md
+        - Trading 101: /getting_started/trading101.md
+        - Strategy Examples: /getting_started/strategyexamples.md
+        - Creating your own strategies: /getting_started/creatingstrat.md
+        - Advanced strategy creation: /getting_started/advcreatingstrat.md
     - Troubleshooting:
-      - Docker: docker.md
-      - Strategy mistakes: mistakes.md
-      - FAQ: troubleshooting.md
+      - Docker: /troubleshooting/docker.md
+      - Strategy mistakes: /troubleshooting/mistakes.md
+      - FAQ: /troubleshooting/troubleshooting.md
     - Changelog:
-        - V0.1: v01.md
-        - v0.2: v02.md
-        - v0.3: v03.md
-        - Major changes: majorchanges.md
-        - Current known bugs: knownbugs.md
+        - V0.1: /changelog/v01.md
+        - v0.2: /changelog/v02.md
+        - v0.3: /changelog/v03.md
+        - Major changes: /changelog/majorchanges.md
+        - Current known bugs: /changelog/knownbugs.md
 
 theme:
     name: material

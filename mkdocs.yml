@@ -1,11 +1,29 @@
 site_name: DemaTrading.ai
 nav:
     - Home: index.md
-    - Making Money: makingmoney.md
-    - Quickstart: quickstart.md
-    - Strategy Examples: strategyexamples.md
-    - Definitions/FAQ: definitionsfaq.md
-    - Changelog: changelog.md
+    - Getting Paid:
+      - Calculation example: calculationexample.md
+      - For algo creators:
+      - For investors:
+      - Termsheet:
+    - Getting started:
+        - Installation: installation.md
+        - Trading 101: 
+        - Strategy Examples: strategyexample.md
+        - Creating your own strategies:
+        - Advanced strategy creation:
+    - Troubleshooting:
+      - Docker:
+      - Strategy mistakes:
+      - FAQ: troubleshooting.md
+    - Changelog:
+        - V0.1: v01.md
+        - v0.2:
+        - v0.3:
+        - Major changes:
+        - Current known bugs:
+
+
 theme:
     name: material
     logo: assets/logo.png

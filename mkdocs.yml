@@ -9,7 +9,7 @@ nav:
     - Getting started:
         - Installation: installation.md
         - Trading 101: 
-        - Strategy Examples: strategyexample.md
+        - Strategy Examples: strategyexamples.md
         - Creating your own strategies:
         - Advanced strategy creation:
     - Troubleshooting:

@@ -1,9 +1,26 @@
 # Termsheet
 
+## Hold
+
+A Hold is holding your assets. The assets itself can be held for a considerable amount of time. A hold basically just means that if you hold it, you keep it in your wallet for a certain amount of time.
+
 ## Fiat
 
 Fiat is any kind of government issued currency that is not backed by any kind of commodity such as gold or silver.
 
+## Margin
+
+Margin trading is using funds of other traders, who earn interest based on the market demand for funds. Margin trading is less common among cryptocurrency in comparison to the stock market however, it certainly exists.
+
+## Short
+
+A short (or shorting) means that you're aiming to sell an asset at a short-ratio in the aims of buying it when it hits a lower price. Basically, it is short-term selling; you buy in at a price, aiming to sell higher, wanting to buy in lower.
+
+## Long
+
+A long is taking on the position of investing in the same way as when you buy a stock, you buy it in at a position where you are comfortable with, aiming to let it increase over time (months to years, usually).
+
+## 
 ## ROI
 
 Return On Investment (ROI) is widely known in cryptocurrency, it is a ratio or percentage value that represents profitability or efficiency of a certain trade or agreement. It is a tool that's widely used - including strategies for DemaTrading. ROI can be portrayed in an absolute ratio (such as 0.35) or a value percentage (such as 35%). The calculation for ROI is as followed:
@@ -27,4 +44,4 @@ A Stop-Loss is an advanced order that is used by traders that limits any form of
 An example would be that buying in at 100 would stop any form of losses at 95. In this case the stop-loss treshold would be -5%. Similarly, it can be done for a profit where one can set it to +5%, which in turn would mean the profit would be capped at 105.
 
 ## Startup Time: ``min_candles``
-## 
+

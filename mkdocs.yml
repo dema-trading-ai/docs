@@ -3,25 +3,25 @@ nav:
     - Home: index.md
     - Getting Paid:
       - Calculation example: calculationexample.md
-      - For algo creators:
-      - For investors:
-      - Termsheet:
+      - For algo creators: algocreatorpaid.md
+      - For investors: investorpaid.md
+      - Termsheet: termsheet.md
     - Getting started:
         - Installation: installation.md
-        - Trading 101: 
+        - Trading 101: trading101.md
         - Strategy Examples: strategyexamples.md
-        - Creating your own strategies:
-        - Advanced strategy creation:
+        - Creating your own strategies: creatingstrat.md
+        - Advanced strategy creation: advcreatingstrat.md
     - Troubleshooting:
-      - Docker:
-      - Strategy mistakes:
+      - Docker: docker.md
+      - Strategy mistakes: mistakes.md
       - FAQ: troubleshooting.md
     - Changelog:
         - V0.1: v01.md
-        - v0.2:
-        - v0.3:
-        - Major changes:
-        - Current known bugs:
+        - v0.2: v02.md
+        - v0.3: v03.md
+        - Major changes: majorchanges.md
+        - Current known bugs: knownbugs.md
 
 
 theme:

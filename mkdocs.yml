@@ -32,6 +32,8 @@ theme:
     favicon: assets/logo.png
     features:
         - navigation.expand
+        - navigation.tabs
+        - navigation.tabs.sticky
 repo_url: https://github.com/dema-trading-ai/engine
 extra_css:
     - css/extra.css

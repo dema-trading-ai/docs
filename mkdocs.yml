@@ -1,11 +1,7 @@
 site_name: DemaTrading.ai
 nav:
     - Home: index.md
-    - Getting Paid:
-        - Calculation example: getting_paid/calculationexample.md
-        - For algo creators: getting_paid/algocreatorpaid.md
-        - For investors: getting_paid/investorpaid.md
-    - Getting started:
+    - Getting Started:
         - Installation: getting_started/installation.md
         - Trading 101:
             - Trading Basics: getting_started/trading101/trading101.md
@@ -13,6 +9,10 @@ nav:
         - Strategy Examples: getting_started/strategyexamples.md
         - Creating your own strategies: getting_started/creatingstrat.md
         - Advanced strategy creation: getting_started/advcreatingstrat.md
+    - Getting Paid:
+        - Calculation example: getting_paid/calculationexample.md
+        - For algo creators: getting_paid/algocreatorpaid.md
+        - For investors: getting_paid/investorpaid.md
     - Troubleshooting:
         - Docker: troubleshooting/docker.md
         - Strategy mistakes: troubleshooting/mistakes.md

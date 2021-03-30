@@ -22,5 +22,9 @@ Mary's BTC is worth 18 per BTC after 6 months of her initial investment of 1,000
 
 ## Stop Loss
 
+A Stop-Loss is an advanced order that is used by traders that limits any form of additional losses. When a specific price is met, the order is triggered.
+
+An example would be that buying in at 100 would stop any form of losses at 95. In this case the stop-loss treshold would be -5%. Similarly, it can be done for a profit where one can set it to +5%, which in turn would mean the profit would be capped at 105.
+
 ## Startup Time: ``min_candles``
 ## 

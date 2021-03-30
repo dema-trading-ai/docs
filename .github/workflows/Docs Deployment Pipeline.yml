@@ -2,8 +2,6 @@ name: Docs Deployment Pipeline
 on:
   push:
     branches: [main, development]
-    paths:
-      - 'docs/**'
   workflow_dispatch:
 
 jobs:

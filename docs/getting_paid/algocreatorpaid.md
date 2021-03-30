@@ -1,1 +1,1 @@
-# Coming soon.
+# Getting paid as algorithm creator

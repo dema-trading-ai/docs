@@ -1,1 +1,1 @@
-# Coming soon.
+# Creating your first strategy

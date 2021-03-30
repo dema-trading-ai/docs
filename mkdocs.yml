@@ -2,7 +2,7 @@ site_name: DemaTrading.ai
 nav:
     - Home: index.md
     - Getting Paid:
-        - Calculation example: /getting_paid/calculationexample.md
+        - Calculation example: docs/getting_paid/calculationexample.md
         - For algo creators: /getting_paid/algocreatorpaid.md
         - For investors: /getting_paid/investorpaid.md
         - Termsheet: /getting_paid/termsheet.md

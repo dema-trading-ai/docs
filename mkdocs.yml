@@ -23,7 +23,6 @@ nav:
         - Major changes: majorchanges.md
         - Current known bugs: knownbugs.md
 
-
 theme:
     name: material
     logo: assets/logo.png

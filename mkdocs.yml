@@ -32,6 +32,8 @@ theme:
         - navigation.expand
         - navigation.tabs
         - navigation.tabs.sticky
+        - navigation.sections
+
     palette:
         # Light mode
         - media: "(prefers-color-scheme: light)"

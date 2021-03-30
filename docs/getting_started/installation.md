@@ -1,4 +1,9 @@
 # Running
+There are multiple possibilities for running our backtesting engine. For both of the possibilities, you need to have certain 3rd party software installed. Below you can find a list of requirements for every possibility. Besides, make sure to read the attention fields below. 
+
+!!! attention
+    For both the environments, you will have to download our repository on your computer. This could be done by [clicking here](https://github.com/dema-trading-ai/engine/archive/refs/heads/main.zip) or by cloning it using [Github Desktop](https://desktop.github.com) or something similar. 
+
 ### Requirements for running with Docker (recommended)
 Running the Engine just takes a few simple things:
 1. Have Docker installed on your system ([click here to download Docker](https://docs.docker.com/get-docker/))
@@ -14,40 +19,12 @@ Running the Engine just takes a few simple things:
 5. Install the TA-Lib dependencies ([follow the instructions given underneath the dependencies header](https://github.com/mrjbq7/ta-lib)).
 6. Have this repository cloned on your computer. 
 
-### Using `make`
 
-As the docker commands listed above are not so developer friendly, we added a Makefile to help you save some tears. You'll need to have `make` installed on your system (check using `make --version`), which is on most computers by default. If you don't, run `brew install make` (homebrew needed), `sudo apt install make` or `choco install make` (chocolately needed) for MacOS, Linux or Windows, respectively.
-
-To build the image:
-
-`make build`
-
-To run the container:
-
-`make run`
-
-To run on volume:
-
-`make runv`
-
-To build and run:
-
-`make`
-
-***
 ## Running the Engine.
-
-### Running without Docker
-
-First run:
-
-`pip install -r requirements.txt`
-
-After installing, you can run the backtesting module:
-
-`python3 main.py`
-
-### Running with Docker (Docker is a must if using an Apple system with the Apple Silicon M1 chip or else it does not work).
+### Running with Docker 
+!!! note
+    Docker is a must if using an Apple system with the Apple Silicon M1 chip or else it does not work!
+    
 
 First run:
 
@@ -58,6 +35,16 @@ To run the container:
 `docker run --rm dema-engine:alpha`
 
 Note: do not forget '--rm' as your Docker will keep the container if you do, which is not necessary and will cause extreme increase in memory usage.
+
+### Running without Docker
+
+First run:
+
+`pip install -r requirements.txt`
+
+After installing, you can run the backtesting module:
+
+`python3 main.py`
 
 ### Apple Silicon M1 Chip
 
@@ -77,3 +64,22 @@ If it doesn't work with Rosetta, don't worry! There's another solution that can 
 `conda install -y python==3.8.6`
 `conda install -y pandas TA-Lib`
 5. You should be ready to go!
+
+### Running using ``make``
+As the docker commands listed above are not so developer friendly, we added a Makefile to help you save some tears. You'll need to have `make` installed on your system (check using `make --version`), which is on most computers by default. If you don't, run `brew install make` (homebrew needed), `sudo apt install make` or `choco install make` (chocolately needed) for MacOS, Linux or Windows, respectively.
+
+To build the image:
+
+`make build`
+
+To run the container:
+
+`make run`
+
+To run on volume:
+
+`make runv`
+
+To build and run:
+
+`make`

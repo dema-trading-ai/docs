@@ -11,15 +11,36 @@ Running the Engine just takes a few simple things:
 2. A code editor such as [Pycharm](https://www.jetbrains.com/pycharm/) or [VSCode](https://code.visualstudio.com).
 3. Ability to copy + paste and some motivation to figure things out. 
 
-### Requirements for running without Docker (alternative)
-Running the Engine just takes a few simple things:
+### Requirements for running without Docker on a MAC-OS device (alternative)
+Running the Engine on a MAC-OS just takes a few simple things:
 
 1. Have Python 3 installed ([click here to download Python](https://www.python.org/downloads/)).
 2. Have pip installed (Pip should be installed automatically on any version of Python that is 2.7 or above. If not installed on your system [click here!](https://pip.pypa.io/en/stable/installing/)).
 3. A code editor such as [Pycharm](https://www.jetbrains.com/pycharm/) or [VSCode](https://code.visualstudio.com).
 4. Download and install [Xcode12](https://developer.apple.com/download/).
+5. Install Homebrew (recommended over pip). Installing homebrew can be done by copying the following line into your terminal app:
+    
+    `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+   
+6. Install the TA-Lib dependencies ([follow the instructions given underneath the dependencies header](https://github.com/mrjbq7/ta-lib))
+   
+    `pip install ta-lib`
+   
+    `brew install ta-lib` (Recommended).
+7. Have this repository cloned on your computer.
+
+###Requirements for running without Docker on a Windows device (alternative)
+Running the Engine on a Windows device takes just a few simple things:
+
+1. Have Python 3 installed. ([click here to download Python](https://www.python.org/downloads/)).
+2. Have pip installed (Pip should be installed automatically on any version of Python that is 2.7 or above. If not installed on your system [click here!](https://pip.pypa.io/en/stable/installing/)).
+3. A code editor such as [Pycharm](https://www.jetbrains.com/pycharm/) or [VSCode](https://code.visualstudio.com).
+4. Install TA-Lib itself by copy-pasting the following [command into your terminal](https://github.com/mrjbq7/ta-lib) :
+   
+    `pip install TA-Lib`
 5. Install the TA-Lib dependencies ([follow the instructions given underneath the dependencies header](https://github.com/mrjbq7/ta-lib)).
 6. Have this repository cloned on your computer.
+    
 
 ## Running the Engine.
 ### Running with Docker 

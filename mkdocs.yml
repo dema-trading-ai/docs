@@ -17,8 +17,8 @@ nav:
         - For algo creators: getting_paid/algocreatorpaid.md
         - For investors: getting_paid/investorpaid.md
     - Troubleshooting:
-        - Docker: troubleshooting/docker.md
         - Strategy mistakes: troubleshooting/mistakes.md
+        - Docker: troubleshooting/docker.md
         - FAQ: troubleshooting/troubleshooting.md
     - Changelog:
         - V0.1: changelog/v01.md

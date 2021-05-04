@@ -9,17 +9,38 @@ Running the Engine just takes a few simple things:
 
 1. Have Docker installed on your system ([click here to download Docker](https://docs.docker.com/get-docker/)).
 2. A code editor such as [Pycharm](https://www.jetbrains.com/pycharm/) or [VSCode](https://code.visualstudio.com).
-3. Ability to copy + paste and some motivation to figure things out. 
+3. Willing to copy and paste certain commands! 
 
-### Requirements for running without Docker (alternative)
-Running the Engine just takes a few simple things:
+### Requirements for running without Docker on a MAC-OS device (alternative)
+Running the Engine on a MAC-OS just takes a few simple things:
 
 1. Have Python 3 installed ([click here to download Python](https://www.python.org/downloads/)).
 2. Have pip installed (Pip should be installed automatically on any version of Python that is 2.7 or above. If not installed on your system [click here!](https://pip.pypa.io/en/stable/installing/)).
 3. A code editor such as [Pycharm](https://www.jetbrains.com/pycharm/) or [VSCode](https://code.visualstudio.com).
 4. Download and install [Xcode12](https://developer.apple.com/download/).
+5. Install Homebrew (recommended over pip). Installing homebrew can be done by copying the following line into your terminal app:
+    
+    `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+   
+6. Install the TA-Lib dependencies ([follow the instructions given underneath the dependencies header](https://github.com/mrjbq7/ta-lib))
+   
+    `pip install ta-lib`
+   
+    `brew install ta-lib`
+7. Have this repository cloned on your computer.
+
+###Requirements for running without Docker on a Windows device (alternative)
+Running the Engine on a Windows device takes just a few simple things:
+
+1. Have Python 3 installed. ([click here to download Python](https://www.python.org/downloads/)).
+2. Have pip installed (Pip should be installed automatically on any version of Python that is 2.7 or above. If not installed on your system [click here!](https://pip.pypa.io/en/stable/installing/)).
+3. A code editor such as [Pycharm](https://www.jetbrains.com/pycharm/) or [VSCode](https://code.visualstudio.com).
+4. Install TA-Lib itself by copy-pasting the following [command into your terminal](https://github.com/mrjbq7/ta-lib) :
+   
+    `pip install TA-Lib`
 5. Install the TA-Lib dependencies ([follow the instructions given underneath the dependencies header](https://github.com/mrjbq7/ta-lib)).
 6. Have this repository cloned on your computer.
+    
 
 ## Running the Engine.
 ### Running with Docker 
@@ -64,7 +85,7 @@ If it doesn't work with Rosetta, don't worry! There's another solution that can 
 `conda activate mytf`
 `conda install -y python==3.8.6`
 `conda install -y pandas TA-Lib`
-5. You should be ready to go!
+5. The engine is now ready to run on your Apple M1 machine.
 
 ### Running using ``make``
 As the docker commands listed above are not so developer friendly, we added a Makefile to help you save some tears. You'll need to have `make` installed on your system (check using `make --version`), which is on most computers by default. If you don't, run `brew install make` (homebrew needed), `sudo apt install make` or `choco install make` (chocolately needed) for MacOS, Linux or Windows, respectively.

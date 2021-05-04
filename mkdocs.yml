@@ -5,15 +5,15 @@ nav:
         - Installation:
             - Installing: getting_started/installation/installation.md
             - Installing Docker: getting_started/installation/installing_docker.md
+            - Configuring Backtesting: getting_started/installation/configuring_backtesting.md
         - Trading 101:
             - Trading Basics: getting_started/trading101/trading101.md
             - Termsheet: getting_started/trading101/termsheet.md
+            - Contributing: getting_started/trading101/contributing.md
         - Strategies:
             - Strategy Examples: getting_started/strategies/strategyexamples.md
-            - Creating your own strategies: getting_started/strategies/creatingstrat.md
             - Advanced strategy creation: getting_started/strategies/advcreatingstrat.md
     - Getting Paid:
-        - Calculation example: getting_paid/calculationexample.md
         - For algo creators: getting_paid/algocreatorpaid.md
         - For investors: getting_paid/investorpaid.md
     - Troubleshooting:
@@ -24,6 +24,8 @@ nav:
         - V0.1: changelog/v01.md
         - v0.2: changelog/v02.md
         - v0.3: changelog/v03.md
+        - v0.4: changelog/v04.md
+        - v0.5: changelog/v05.md
         - Major changes: changelog/majorchanges.md
         - Current known bugs: changelog/knownbugs.md
 

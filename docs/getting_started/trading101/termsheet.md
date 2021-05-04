@@ -74,5 +74,14 @@ A Stop-Loss is an advanced order that is used by traders that limits any form of
 
 An example would be that buying in at 100 would stop any form of losses at 95. In this case the stop-loss treshold would be -5%. Similarly, it can be done for a profit where one can set it to +5%, which in turn would mean the profit would be capped at 105.
 
-## Startup Time: ``min_candles``
+## OHLCV
+OHLCV, also known as:
+
+- **O**pen: the moment at which the candle starts.
+- **H**igh: the highest point during the candle, usually depicted with a thin green line (if the current close went up in comparison to the previous close) or a thin red line (if the current close went down in comparison to the previous close) that sticks out of the close.
+- **L**ow: the lowest point during the candle, usually depicted with a thin red line (if the current close went down in comparison to the previous close) or a thin green line (if the current close went up in comparison to the previous close) that sticks out of the close. 
+- **C**lose: the point at which the candle closes, the close dictates whether a candle ends up green or red after comparing it to the previous close (green if up, red if down)
+- **V**olume: the total amount traded during this time period.
+
+Can be used to trade in an easy fashion as it takes all five of these time points in consideration.
 

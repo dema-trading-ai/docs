@@ -37,4 +37,4 @@ For any questions not covered by the documentation or for further questions rega
 
 #Ready to start?
 
-The installation page is waiting for you!
+[Getting started](https://docs.dematrading.ai/getting_started/installation/installation/), [the term sheet](https://docs.dematrading.ai/getting_started/trading101/termsheet/), and [examples of strategies](https://docs.dematrading.ai/getting_started/strategies/strategyexamples/) are waiting for you!

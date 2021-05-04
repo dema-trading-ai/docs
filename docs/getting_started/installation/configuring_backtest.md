@@ -131,5 +131,5 @@ Changing the timeframe can make a huge difference; if you apply a short timefram
 ***
 ## Getting started
 
-Now you've seen how we configured all the basic settings and buy/sell signals. From now on, you can start working on **your very own trading algorithms**. More information regarding this can be found on the strategies page.
+Now you've seen how we configured all the basic settings and buy/sell signals. From now on, you can start working on **your very own trading algorithms**. More information regarding this can be found on the [strategies](https://docs.dematrading.ai/getting_started/strategies/strategyexamples/) page.
 

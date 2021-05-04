@@ -1,6 +1,6 @@
 #  What we can do for you - as an algorithm creator!
 
-DemaTrading is able to facilitate you with a platform for your algorithms, strategies, and bots to flourish! For you - as an algorithm creator - this means that our platform is able to host your strategies to investors and to assist you in getting more out of your algorithms!
+DemaTrading is able to facilitate you with a platform for your algorithms, strategies, and bots to flourish. For you - as an algorithm creator - this means that our platform is able to host your strategies to investors and to assist you in getting more out of your algorithms!
 
 ## How does it work?
 

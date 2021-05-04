@@ -29,3 +29,12 @@ The DemaTrading.ai Engine is an open source backtesting Engine for trading as a 
 
 ***
 
+# Support
+[Discord](https://discord.gg/WXxjtNzjEx)
+
+For any questions not covered by the documentation or for further questions regarding the engine, trading, your own strategies, or your algorithm, or just a chit chat with like-minded individuals, we'd be more than welcome to provide you with our Discord and facilitate the needs you may have.
+***
+
+#Ready to start?
+
+The installation page is waiting for you!

@@ -38,6 +38,7 @@ Running the Engine on a Windows device takes just a few simple things:
 4. Install TA-Lib itself by copy-pasting the following [command into your terminal](https://github.com/mrjbq7/ta-lib) :
    
     `pip install TA-Lib`
+    
 5. Install the TA-Lib dependencies ([follow the instructions given underneath the dependencies header](https://github.com/mrjbq7/ta-lib)).
 6. Have this repository cloned on your computer.
     

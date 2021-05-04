@@ -5,7 +5,7 @@ nav:
         - Installation:
             - Installing: getting_started/installation/installation.md
             - Installing Docker: getting_started/installation/installing_docker.md
-            - Configuring Backtesting: getting_started/installation/configuring_backtesting.md
+            - Configuring Backtesting: getting_started/installation/configuring_backtest.md
         - Trading 101:
             - Trading Basics: getting_started/trading101/trading101.md
             - Termsheet: getting_started/trading101/termsheet.md
@@ -17,8 +17,8 @@ nav:
         - For algo creators: getting_paid/algocreatorpaid.md
         - For investors: getting_paid/investorpaid.md
     - Troubleshooting:
-        - Docker: troubleshooting/docker.md
         - Strategy mistakes: troubleshooting/mistakes.md
+        - Docker: troubleshooting/docker.md
         - FAQ: troubleshooting/troubleshooting.md
     - Changelog:
         - V0.1: changelog/v01.md

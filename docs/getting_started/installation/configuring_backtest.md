@@ -77,8 +77,25 @@ def stoploss(self, dataframe: DataFrame) -> DataFrame:
         # END STRATEGY
 ```
 ***
-## OHLVC
+## OHLCV
+OHLCV, also known as:
 
+- **O**pen
+- **H**igh
+- **L**ow
+- **C**lose
+- **V**olume
+
+Can be used to trade in an easy fashion. A simple example for this would be by using the close. The close is the end value of the current candle, where it closes and goes into a new candle.
+
+```python
+dataframe.loc[
+    (
+        (dataframe['close'] < 50)
+    ),
+    'buy'] = 1
+```
+Which means you'll buy an asset when the close is below 50. This can be adjusted as you see fit, however, the general jist of it is that all the OHLCV can be used in a similar fashion.
 ***
 ## How to use 'if statements with candles' and elucidating timeframes
 
@@ -90,7 +107,7 @@ if current_candle['close'] > current_candle['ma200']:
 
 Will result in an error due to the fact that the candle will be marked as close yet it is supposed to surpass the past 200 point timeframe average.
 
-A correct example on how to use :
+A correct example on how to use an if statement would be:
 
 ```python
 if int(timestamp) > time:

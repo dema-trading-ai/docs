@@ -124,7 +124,7 @@ dataframe.loc[
     'buy'] = 1
 ```
 
-Albiet, the latter is already a timeframe module and would already be a part of a possible strategy. 
+Albeit, the latter is already a timeframe module and would already be a part of a possible strategy. 
 
 Changing the timeframe can make a huge difference; if you apply a short timeframe and put it up against a large timeframe as presented in the second example, you can detect shorts and act on them!
 

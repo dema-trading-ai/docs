@@ -9,7 +9,7 @@ Running the Engine just takes a few simple things:
 
 1. Have Docker installed on your system ([click here to download Docker](https://docs.docker.com/get-docker/)).
 2. A code editor such as [Pycharm](https://www.jetbrains.com/pycharm/) or [VSCode](https://code.visualstudio.com).
-3. Ability to copy + paste and some motivation to figure things out. 
+3. Willing to copy and paste certain commands! 
 
 ### Requirements for running without Docker on a MAC-OS device (alternative)
 Running the Engine on a MAC-OS just takes a few simple things:

@@ -81,7 +81,7 @@ Now you've seen how we configured all the basic settings and buy/sell signals. F
 ### Configuring indicators
 You can have a look at the `indicator_sample.py` file under the `strategies` directory on how to configure indicators for your strategy. 
 
-In this file, we have compiled a vast amount of Tradingview indicators along with the required `int` (whole numbers). The only thing you'd have to add yourself besides the presented code that contains the indicator you wish to use, is to add a timeperiod within the brackets. 
+In this file, we have compiled a vast amount of Tradingview indicators along with the required `int` (whole numbers). The only thing you'd have to add yourself besides the presented code that contains the indicator you wish to use, is to add a timeperiod within the brackets to ensure that there's a scope in time during which you want to perform the backtest. 
 ### Using indicators in sell/buy signal
 Have a look at the [sell signal](#sell-signal) or [buy signal](#buy-signal) part of the sample strategy. Other python logic and external packages could be applied to the buy/sell signal, as long as it's a condition. 
 

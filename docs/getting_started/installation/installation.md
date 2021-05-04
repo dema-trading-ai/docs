@@ -26,7 +26,7 @@ Running the Engine on a MAC-OS just takes a few simple things:
    
     `pip install ta-lib`
    
-    `brew install ta-lib` (Recommended).
+    `brew install ta-lib`
 7. Have this repository cloned on your computer.
 
 ###Requirements for running without Docker on a Windows device (alternative)

@@ -11,7 +11,7 @@ This in itself is a trade. Candles and book orders will display real-time buy an
 In itself it means that with the right buys at the right time and the right sales at the right time, you can earn money via your assets (in crypto). Trading has a lot of success stories and we aim to assist further in that.
 ***
 ### So what can DemaTrading do for me?
-As explained on other pages, Dematrading can assist you in automating and optimizing your strategy. A strategy is an approach to the current market, which will look at several factors such as ROI, the current values, the stop-loss, and so forth. The benefits of using automatized trading is that it will automatically do these processes for you even when you're not there to perform the actual trade.
+As explained on other pages, DemaTrading can assist you in automating and optimizing your strategy. A strategy is an approach to the current market, which will look at several factors such as ROI, the current values, the stop-loss, and so forth. The benefits of using automatized trading is that it will automatically do these processes for you even when you're not there to perform the actual trade.
 
 That means that even if you are far away, the bot itself will still continue on to perform trades given the configuration you've given it. The configuration itself can be adjusted fairly easily which can be seen in pages such as the strategy examples page or the page of creating strategies. 
 ***

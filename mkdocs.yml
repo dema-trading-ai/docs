@@ -26,6 +26,7 @@ nav:
         - v0.3: changelog/v03.md
         - v0.4: changelog/v04.md
         - v0.5: changelog/v05.md
+        - v0.6: changelog/v06.md
         - Major changes: changelog/majorchanges.md
         - Current known bugs: changelog/knownbugs.md
 

@@ -6,6 +6,7 @@ nav:
             - Installing: getting_started/installation/installation.md
             - Installing Docker: getting_started/installation/installing_docker.md
             - Configuring Backtesting: getting_started/installation/configuring_backtest.md
+            - Github Desktop: getting_started/installation/github_desktop.md
         - Trading 101:
             - Trading Basics: getting_started/trading101/trading101.md
             - Termsheet: getting_started/trading101/termsheet.md
@@ -26,6 +27,7 @@ nav:
         - v0.3: changelog/v03.md
         - v0.4: changelog/v04.md
         - v0.5: changelog/v05.md
+        - v0.6: changelog/v06.md
         - Major changes: changelog/majorchanges.md
         - Current known bugs: changelog/knownbugs.md
 

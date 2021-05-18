@@ -2,7 +2,7 @@
 ***
 ## How to use Github Desktop.
 
-To set up your Git repo using the GitHub Desktop client:
+DemaTrading.ai is launching it’s very own bot contest, but to efficiently participate, a very useful tool is to use Github Desktop as it makes your life a lot easier! The following steps should help you set it up and get your strategy up and running with ease, putting you one step closer to one of the three prizes. 
 
 1. Download and install GitHub Desktop. Launch the app and sign in.
 2. Go to Github.com and browse to the repository you want to use it Github Desktop for.

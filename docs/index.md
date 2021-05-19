@@ -32,6 +32,9 @@ Prerequisites:
 - An algorithm supplier contract has to be signed before the 7th of June
 - Submission is through Github. (An easy way for this would be [Github Desktop](https://desktop.github.com_))
 - The bots are scored based on their performance in June, the score is calculated as profit / seen_drawdown in the Engine
+- Only bots that are made in the Engine can participate.
+
+
 
 Only bot names will be posted to keep everything anonymous to ensure a fair competition.
 

@@ -6,7 +6,7 @@ We use Github Desktop for version control, allowing you to organize your strateg
 
 #### Installing Github Desktop
 1. [Download](https://desktop.github.com/) and install Github Desktop.
-2. Go to Github.com and navigate to the repository you want to work on.
+2. Go to [Github.com](https://github.com) and navigate to the repository you want to work on.
 3. Click the green 'Code' button, and copy the URL you see.
 4. Open the Github Desktop client and go to File > Clone Repository.
 5. Click the URL tab, paste in the URL, select a destination folder on your machine and click 'Clone'.

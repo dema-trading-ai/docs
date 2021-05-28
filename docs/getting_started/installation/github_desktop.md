@@ -4,7 +4,7 @@
 
 We use Github Desktop for version control, allowing you to organize your strategies and share them with us. The following steps should help you set it up. 
 
-####Installing Github Desktop
+#### Installing Github Desktop
 1. [Download](https://desktop.github.com/) and install Github Desktop.
 2. Go to Github.com and navigate to the repository you want to work on.
 3. Click the green 'Code' button, and copy the URL you see.

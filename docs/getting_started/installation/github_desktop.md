@@ -12,7 +12,7 @@ We use Github Desktop for version control, allowing you to organize your strateg
 5. Click the URL tab, paste in the URL, select a destination folder on your machine and click 'Clone'.
 6. Now that you have the repository folder locally on your machine, any change that you make in that folder will be noted by Github Desktop.
 
-####Using Github Desktop
+#### Using Github Desktop
 1. Commit your work regularly. Committing is 'saving' the current state of your folder. You can commit by typing a commit message (i.e. what did you change) in the bottom left panel of Github Desktop and press 'Commit'. 
 2. Now that you have committed your changes, you want to 'Push' the commit to the repository. This synchronizes the repository with your changes. Click the 'Push' button in the top middle.   
 

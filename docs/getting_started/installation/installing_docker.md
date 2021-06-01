@@ -25,7 +25,8 @@ Once this is done, you're ready to start the first backtest. This can be done by
 # Run your first backtest
 docker-compose up
 ```
-By default, the backtest will run the sample strategy provided. This is just a reference to get you started. Don't expect it to be profitable already, as it will require you to adjust it to your strategy!
+By default, the backtest will run the sample strategy provided. This is just a reference to get you started. Don't expect
+it to be profitable already, as you should adjust it to your own strategy!
 
 
 ### Updating the Engine with docker-compose
@@ -38,4 +39,4 @@ The above command will pull the newest version of the Engine for you. Thats all 
 
 
 ### Whats next?
-From hereon you are ready to start developing your own strategies! Read on in [examples of strategies](https://docs.dematrading.ai/getting_started/strategies/strategyexamples/).
+You are now ready to start developing your own strategies! Get started by reading [examples of strategies](https://docs.dematrading.ai/getting_started/strategies/strategyexamples/).

@@ -3,7 +3,7 @@ nav:
     - Home: index.md
     - Getting Started:
         - Installation:
-            - Installing: getting_started/installation/installation.md
+            - Installing: getting_started/installation/installating.md
             - Installing Docker: getting_started/installation/installing_docker.md
             - Configuring Backtesting: getting_started/installation/configuring_backtest.md
             - Github Desktop: getting_started/installation/github_desktop.md

@@ -129,6 +129,21 @@ Albeit, the latter is already a timeframe module and would already be a part of 
 Changing the timeframe can make a huge difference; if you apply a short timeframe and put it up against a large timeframe as presented in the second example, you can detect shorts and act on them!
 
 ***
+## Plotting
+
+The plotting functionality can give you a more in-depth insight in the behaviour of the indicators you use, and the buy
+and sell signals that your algorithm generates. In order to activate this functionality, set ‘plots’ to true in your
+config file,  and add the main plot and subplot indicators you wish to see.
+ 
+```json
+  "plots": true,
+  "mainplot_indicators": ["ema5", "ema21"],
+  "subplot_indicators": ["volume"]
+```
+ 
+ The plots will be done per coin, and can for example be found here: data/backtesting-data/binance/plotETHUSDT.html
+ 
+***
 ## Getting started
 
 Now you've seen how we configured all the basic settings and buy/sell signals. From now on, you can start working on **your very own trading algorithms**. More information regarding this can be found on the [strategies](https://docs.dematrading.ai/getting_started/strategies/strategyexamples/) page.

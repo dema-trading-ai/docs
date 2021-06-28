@@ -20,25 +20,11 @@
 
 # Contest
 
-!!! attention Submissions are now closed! Stay tuned on our social media channels for the results, and for future bot contests!
+DemaTrading.ai is launching its very own bot contest! There are prizes to be won, battles to be fought, and we’re excited
+to see every single one of you participate. During the contest, we’ll run the bots, and the three bots that perform the best at the end of the competition period will be the ones to win some amazing prizes!
 
-DemaTrading.ai is launching its very own bot contest! There are prizes to be won, battles to be fought, and we’re excited 
-to see every single one of you participate. The contest will last from the 18th of May till the 31st of May - ending at 
-exactly 23:59. During June, we’ll run the bots, and the three bots that perform the best will be the ones to win some amazing prizes:
+Stay tuned on our [Discord server](https://discord.gg/WXxjtNzjEx) for the results, and for future bot contests!
 
-- 1st place: 300 Euro cash
-- 2nd place: 200 Euro cash
-- 3rd place: 100 Euro cash
-
-Prerequisites:
-
-- An algorithm supplier contract has to be signed before the 7th of June
-- Submission is through Github (An easy way for this would be [Github Desktop](https://desktop.github.com_))
-- The bots are scored based on their performance in June, the score is calculated as profit / max_seen_drawdown in the Engine
-- Only bots that are made in the Engine can participate
-
-
-Only bot names will be posted to keep everything anonymous.
 
 [Start here for a quick introduction to Github Desktop!](https://docs.dematrading.ai/getting_started/installation/github_desktop/)
 

@@ -8,11 +8,10 @@ Installing the Engine on a MAC-OS requires the following steps:
 
 1. Install Python 3 ([click here to download Python](https://www.python.org/downloads/))
 2. Install Homebrew (recommended). Installing homebrew can be done by copying the following line into your terminal app:
-
-   * `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-   * **OR**
-   * Make sure pip is installed (alternative) (Pip should be installed automatically on any version of Python that is 3 
-   or above. If it is not installed on your system [click here](https://pip.pypa.io/en/stable/installing/))
+    - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+    - **OR**
+    - Make sure pip is installed (alternative) (Pip should be installed automatically on any version of Python that is 3 
+        or above. If it is not installed on your system [click here](https://pip.pypa.io/en/stable/installing/))
    
 3. Download and install [Xcode12](https://developer.apple.com/download/)
 

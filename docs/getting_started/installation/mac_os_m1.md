@@ -1,7 +1,6 @@
 # Getting started on MacOS (M1 Chip)
 
-### Apple Silicon M1 Chip
-
+## Apple Silicon M1 Chip
 With the new M1 Chip by Apple Silicon, there are several compatibility issues with the packages required. While Docker 
 works; TA-Lib, Pandas, and even Numpy are not compatible with the chip as of yet. The M1 Chip operates with ARM rather
 than x86, causing issues with regards to these Python packages. Sadly, this is not something we can fix ourselves, as this

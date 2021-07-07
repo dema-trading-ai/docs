@@ -3,7 +3,6 @@
 !!! attention If you are running on a computer with M1 chip
     If you are running on a Mac with a M1 chip, please continue reading [here](https://docs.dematrading.ai/getting_started/installation/mac_os_m1)
     
-
 ## How to install on MacOS with Python
 Installing the Engine on a MAC-OS requires the following steps:
 

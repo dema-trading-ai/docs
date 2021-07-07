@@ -1,6 +1,6 @@
 # Getting started for Windows
 
-### How to install on a Windows device (without Docker)
+## How to install on a Windows device (without Docker)
 Installing the Engine on a Windows device requires the following steps:
 
 1. Install Python 3 ([click here to download Python](https://www.python.org/downloads/))

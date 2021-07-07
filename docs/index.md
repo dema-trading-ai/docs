@@ -11,10 +11,13 @@
 
 <a class="github-button" href="https://github.com/dema-trading-ai/engine/archive/main.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Clone dema-trading-ai/engine on GitHub">Download the Engine as zip folder</a>
 
-
 <a class="github-button" href="https://github.com/dema-trading-ai" data-size="large" aria-label="Follow @dema-trading-ai on GitHub">Follow @dema-trading-ai on Github</a>
 
 **[Join our Discord server for updates, support, our community, and more](https://discord.gg/WXxjtNzjEx)**
+
+***
+
+### [Get me started](https://docs.dematrading.ai/getting_started/installation/installation/)
 
 ***
 

@@ -6,9 +6,9 @@
 1. First of all; it is important to have our repository downloaded and unzipped.
 2. Open the directory with the newly downloaded files. 
 3. Install all the required packages
-    ```bash
+   ```
    pip install -r requirements.txt
-    ```
+   ```
 3. Now you can run the Engine by performing the following command: 
    ```
    python main.py

@@ -7,12 +7,12 @@ nav:
             - Configuring Backtesting: getting_started/installation/configuring_backtest.md
             - Github Desktop: getting_started/installation/github_desktop.md
         - Platforms:
-            - Installing on MacOS / Linux: getting_started/mac_os.md
-            - Installing on Windows: getting_started/windows.md
-            - Installing with M1 chip: getting_started/mac_os_m1.md
+            - Installing on MacOS / Linux: getting_started/installation/mac_os.md
+            - Installing on Windows: getting_started/installation/windows.md
+            - Installing with M1 chip: getting_started/installation/mac_os_m1.md
         - Running:
-            - Running The Engine (Docker): running/running_docker.md
-            - Running The Engine (Python): running/running_python.md
+            - Running The Engine (Docker): getting_started/running/running_docker.md
+            - Running The Engine (Python): getting_started/running/running_python.md
         - Trading 101:
             - Trading Basics: getting_started/trading101/trading101.md
             - Termsheet: getting_started/trading101/termsheet.md

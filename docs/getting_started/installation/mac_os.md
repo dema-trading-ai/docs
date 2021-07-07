@@ -15,8 +15,11 @@ Installing the Engine on a MAC-OS requires the following steps:
    
    Make sure pip is installed (alternative) (Pip should be installed automatically on any version of Python that is 3 
    or above. If it is not installed on your system [click here](https://pip.pypa.io/en/stable/installing/))
+
 3. Download and install [Xcode12](https://developer.apple.com/download/)
+
 4. Install the TA-Lib dependencies ([follow the instructions given underneath the dependencies header](https://github.com/mrjbq7/ta-lib))
+
 5. Install TA-Lib
 
     By using Homebrew: (recommended)

@@ -59,7 +59,7 @@ docker-compose run --rm dema-engine -from 20210101 -to 20210201
 ### Strategy
 When working on multiple strategies at the same time it is recommended to use the argument ```-s``` to easily backtest 
 another strategy. Make sure your strategies are saved in the ./strategies/ folder and that the classes have different
-names. For example, to run a strategy where the class is called 'NewStrategy' use the command:
+names. For example, to run a strategy which class is named 'NewStrategy', while using the configuration present in ```config.json```, use the command:
 ```
 docker-compose run --rm dema-engine -s NewStrategy
 ```

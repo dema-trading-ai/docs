@@ -63,7 +63,3 @@ names. For example, to run a strategy where the class is called 'NewStrategy' us
 ```
 docker-compose run --rm dema-engine -s NewStrategy
 ```
-
-
-
-

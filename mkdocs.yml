@@ -20,6 +20,8 @@ nav:
         - Strategies:
             - Strategy Examples: getting_started/strategies/strategyexamples.md
             - Advanced strategy creation: getting_started/strategies/advcreatingstrat.md
+        - Backtesting:
+            - Backtesting arguments: getting_started/backtesting/arguments.md
 
     - Getting Paid:
         - For algo creators: getting_paid/algocreatorpaid.md

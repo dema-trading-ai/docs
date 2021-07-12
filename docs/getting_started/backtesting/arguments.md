@@ -37,7 +37,7 @@
                             Select specific strategy.
 
 ```
-When backtesting your created strategy you can make use of the arguments listed above. To run the engine using these 
+When backtesting, you can make use of the arguments listed above. To run the engine using these 
 arguments, use ```docker-compose run``` instead of ```docker-compose up```. The command will then look like 
 this:
 ```
@@ -52,15 +52,14 @@ arguments the date has to be formatted either YYYYMMDD or YYYY-MM-DD. If the dat
 the engine will use the dates in the config. For example, to run a backtest from 2021-01-01 to 2021-02-01 use the 
 command:
 ```
-docker-compose run --rm dema-engine -from 2021-01-01 -to 20210201
+docker-compose run --rm dema-engine -from 20210101 -to 20210201
 ```
-> Here, you can see that the format of the timestamp can be used interchangeably.
 
 
 ### Strategy and config
 When working on multiple strategies at the same time it is recommended to use the argument ```-s``` to easily backtest 
 another strategy. Make sure your strategies are saved in the ./strategies/ folder and that the classes have different
-names. For example, to run a strategy where the class is called 'NewStrategy', use the command:
+names. For example, to run a strategy where the class is called 'NewStrategy' use the command:
 ```
 docker-compose run --rm dema-engine -s NewStrategy
 ```

@@ -21,6 +21,7 @@ nav:
             - Strategy Examples: getting_started/strategies/strategyexamples.md
             - Advanced strategy creation: getting_started/strategies/advcreatingstrat.md
         - Backtesting:
+            - Configuration: getting_started/backtesting/config.md
             - Backtesting arguments: getting_started/backtesting/arguments.md
 
     - Getting Paid:

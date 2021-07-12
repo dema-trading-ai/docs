@@ -38,7 +38,7 @@
 
 ```
 When backtesting your created strategy you can make use of the arguments listed above. To run the engine using these 
-arguments we have to use ```docker-compose run``` instead of ```docker-compose up```. The command will then look like 
+arguments, use ```docker-compose run``` instead of ```docker-compose up```. The command will then look like 
 this:
 ```
 docker-compose run --rm dema-engine <command> <optional arguments>
@@ -71,7 +71,6 @@ Furthermore, if each strategy also has its own optimised config you can easily s
 ```
 docker-compose run --rm dema-engine -s NewStrategy -c new-strategy-config.json
 ```
-
 
 
 

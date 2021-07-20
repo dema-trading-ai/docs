@@ -9,14 +9,14 @@
 import talib.abstract as ta
 from pandas import DataFrame
 from backtesting.strategy import Strategy
-from modules.public.hyperopt_parameter import integer_parameter
+from modules.public.hyperopt_parameter import integer_parameter, float_parameter
 from modules.public.trading_stats import TradingStats
 
 
 class MyStrategy(Strategy):
     # parameters
     buy_rsi = integer_parameter(40, low=10, high=40)
-    sell_rsi = integer_parameter(70, low=60, high=80)
+    sell_rsi = float_parameter(70., low=60., high=80., step=1.)
     
     def generate_indicators(self, dataframe: DataFrame, additional_pairs=None) -> DataFrame:
         dataframe['rsi'] = ta.RSI(dataframe, timeperiod=14)

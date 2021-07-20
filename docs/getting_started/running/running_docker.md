@@ -7,12 +7,7 @@
 ## Installing
 The following commands will initialise the file structure used by the Engine. Run the commands in your terminal. You only need to do this once!
 ```
-# Make a new directory
-mkdir dema-engine
-cd dema-engine
-
-# Initialize the dema-engine workspace
-docker run -v "$PWD:/usr/src/engine/output" dematrading/engine:stable init
+docker run -t --rm -v "$(pwd):/usr/src/engine/output" dematrading/engine:stable init <YOUR_DIRECTORY_NAME>
 ```
 The above snippet creates a new directory called 'dema-engine' and changes the working directory to the folder we just created. 
 Notice how a config file, a strategy file and a backtesting folder have been created. Those will be used when running the Engine.
@@ -23,7 +18,7 @@ Notice how a config file, a strategy file and a backtesting folder have been cre
 Once this is done, you're ready to start the first backtest. This can be done by running the command below.
 ```
 # Run your first backtest
-docker-compose up
+docker-compose run --rm dema-engine
 ```
 By default, the backtest will run the sample strategy provided. This is just a reference to get you started. Don't expect
 it to be profitable already, as you should adjust it to your own strategy!

@@ -3,6 +3,7 @@
 ## Usage
 `engine --alpha-hyperopt=true`
 
+Example strategy:
 ``` python
 
 # Mandatory Imports

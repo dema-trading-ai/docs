@@ -25,6 +25,7 @@ nav:
             - Backtesting arguments: getting_started/backtesting/arguments.md
         - Experimental:
             - "[experimental] Hyperparameter optimization": getting_started/experimental/hyperopt.md
+            - "[experimental] Installation": getting_started/experimental/executables.md
 
     - Getting Paid:
         - For algo creators: getting_paid/algocreatorpaid.md

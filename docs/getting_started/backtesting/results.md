@@ -91,18 +91,18 @@ This table shows important metrics for each pair.
 
 * **Max. realised drawdown (%)**: max. realised drawdown for all closed trades.
 
-* **Winning weeks (W/D/L)**: see [Trade Info](#Trade Info).
+* **Winning weeks (W/D/L)**: see [Trade Info](#trade-info).
 
 
 ### Coin Signals
 This table shows information about the performed trades.
 * **Trades**: number of trades the corresponding pair has been able to open and close.
 
-* **Shortest trade duration**: see [Trade Info](#Trade Info).
+* **Shortest trade duration**: see [Trade Info](#trade-info).
 
-* **Avg. trade duration**: see [Trade Info](#Trade Info).
+* **Avg. trade duration**: see [Trade Info](#trade-info).
 
-* **Longest trade duration**: see [Trade Info](#Trade Info).
+* **Longest trade duration**: see [Trade Info](#trade-info).
 
 * **ROI**: amount of times a trade has been closed because of ROI.
 

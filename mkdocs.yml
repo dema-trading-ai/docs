@@ -23,6 +23,7 @@ nav:
         - Backtesting:
             - Configuration: getting_started/backtesting/config.md
             - Backtesting arguments: getting_started/backtesting/arguments.md
+            - Results: getting_started/backtesting/results.md
         - Experimental:
             - "[experimental] Hyperparameter optimization": getting_started/experimental/hyperopt.md
             - "[experimental] Installation": getting_started/experimental/executables.md

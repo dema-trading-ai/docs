@@ -9,7 +9,7 @@ market conditions into account.
 To use this functionality, the `additional_pairs()` function needs to be defined in your strategy class. A `("coin", "timeframe")`
 formatting is expected. See the code snippet below for an example, which defines that the 4h candle data of BTC/USDT needs to be available 
 in the `generate_indicators()` function. More combinations in the tuple formatting can be added, separated by commas.
-Note that each combination requires fetching the candle data, and thus might impact performance.
+Note that each combination requires fetching the candle data, and thus might impact performance speed.
 
 !!! note "Multiple timeframes for the same coin?"
 We recommend using only one timeframe per coin, and resampling upwards to achieve longer timeframes.

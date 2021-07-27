@@ -15,7 +15,7 @@ the list. We also encourage users that coded their own indicators to contribute 
 ### Example
 To use the indicators, import the corresponding file at the top of your strategy file:
 ```python
-from modules.setup.config import technical_indicators as indicator
+from modules.public import technical_indicators as indicator
 ```
 
 Call the desired method in the `generate_indicators()` function like so:

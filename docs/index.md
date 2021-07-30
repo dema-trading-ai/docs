@@ -41,7 +41,7 @@ The DemaTrading.ai Engine is an open source backtesting Engine for cryptocurrenc
 ## Support
 
 For any questions not covered by the documentation, or for further questions regarding the engine, trading, your own
-strategies, your algorithms, or just a chit chat with like-minded individuals, you are more than welcome join our
+strategies, your algorithms, or just a chit-chat with like-minded individuals, you are more than welcome to join our
 Discord server, where we will facilitate whatever need you may have.
 
 [Click here to join our Discord server](https://discord.gg/WXxjtNzjEx)

@@ -1,4 +1,9 @@
 # Overview of all major changes per version
+## v0.6 - v0.7
+- Rigorous testing and improvement of all current statistics
+- Refactoring of the entire engine
+- Improvement of plot readability
+- Average numbers of trades per day
 
 ## v0.5 - v0.6
 - Fixed several bugs in the profit calculation

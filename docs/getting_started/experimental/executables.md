@@ -9,12 +9,14 @@ From a Powershell window opened as **Administrator**, execute the following comm
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://ams3.digitaloceanspaces.com/engine-store/install-windows.ps1'))
 ```
+![type:video](https://www.youtube.com/embed/rKLvhZVG3Po)
 
 ### Mac
 From a terminal, execute the following command: 
 ```
 curl -fsSL https://engine-store.ams3.digitaloceanspaces.com/installing_macos.sh | /bin/bash
 ```
+![type:video](https://www.youtube.com/embed/-C-SHgOj5Ro)
 
 ## Running
 

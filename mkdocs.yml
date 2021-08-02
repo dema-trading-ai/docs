@@ -85,3 +85,5 @@ markdown_extensions:
       permalink: "#"
       separator: "-"
 use_directory_urls: true
+plugins:
+    - mkdocs-video

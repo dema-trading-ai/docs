@@ -12,7 +12,7 @@ in the `generate_indicators()` function. More combinations in the tuple formatti
 Note that each combination requires fetching the candle data, and thus might impact performance speed.
 
 !!! note "Multiple timeframes for the same coin?"
-We recommend using only one timeframe per coin, and resampling upwards to achieve longer timeframes.
+    We recommend using only one timeframe per coin, and resampling upwards to achieve longer timeframes.
 
 ```python
 @staticmethod

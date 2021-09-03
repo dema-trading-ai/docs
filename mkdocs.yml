@@ -47,6 +47,7 @@ nav:
 
 theme:
     name: material
+    nav_style: light
     logo: assets/logo.png
     favicon: assets/logo.png
     features:
@@ -87,3 +88,4 @@ markdown_extensions:
 use_directory_urls: true
 plugins:
     - mkdocs-video
+    - search

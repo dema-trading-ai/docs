@@ -1,54 +1,5 @@
-# DemaTrading.ai backtesting engine
+---
+template: overrides/home.html
+title: Material for MkDocs
+---
 
-[![Build Status](https://img.shields.io/github/forks/dema-trading-ai/engine.svg)](https://github.com/dema-trading-ai/engine)
-[![Build Status](https://img.shields.io/github/stars/dema-trading-ai/engine.svg)](https://github.com/dema-trading-ai/engine)
-[![License](https://img.shields.io/github/license/dema-trading-ai/engine.svg)](https://github.com/dema-trading-ai/engine)
-
-<a class="github-button" href="https://github.com/dema-trading-ai/engine/archive/main.zip" data-icon="octicon-cloud-download" data-size="large" aria-label="Clone dema-trading-ai/engine on GitHub">Download the Engine as zip folder</a>
-
-<a class="github-button" href="https://github.com/dema-trading-ai" data-size="large" aria-label="Follow @dema-trading-ai on GitHub">Follow @dema-trading-ai on Github</a>
-
-**[Join our Discord server for updates, support, our community, and more](https://discord.gg/WXxjtNzjEx)**
-
-
-## Introduction
-
-The DemaTrading.ai Engine is an open source backtesting Engine for cryptocurrency trading as a part of
-[DemaTrading.ai](https://DemaTrading.ai). The Engine is completely written in the programming language Python.
-
-!!! note ""
-    Some experience with Python makes this process easier, however with some effort this project should be runnable for 
-    everyone, no matter your experience with coding.
-
-[Start here for a quick introduction to Github Desktop!](https://docs.dematrading.ai/getting_started/installation/github_desktop/)
-
-
-## Ready to start?
-
-[Getting started](https://docs.dematrading.ai/getting_started/installation/installation/),
-[the term sheet](https://docs.dematrading.ai/getting_started/trading101/termsheet/),
-and [examples of strategies](https://docs.dematrading.ai/getting_started/strategies/strategyexamples/) are waiting for you!
-
-
-## Support
-
-For any questions not covered by the documentation, or for further questions regarding the engine, trading, your own
-strategies, your algorithms, or just a chit-chat with like-minded individuals, you are more than welcome to join our
-Discord server, where we will facilitate whatever need you may have.
-
-[Click here to join our Discord server](https://discord.gg/WXxjtNzjEx)
-
-
-## Contest
-
-DemaTrading.ai is launching its very own bot contest! There are prizes to be won, battles to be fought, and we’re excited
-to see every single one of you participate. During the contest, we’ll run the bots, and the three bots that perform the best at the end of the competition period will be the ones to win some amazing prizes!
-
-Stay tuned on our [Discord server](https://discord.gg/WXxjtNzjEx) for the results, and for future bot contests!
-
-
-***
-
-### [Get me started](https://docs.dematrading.ai/getting_started/installation/installation/)
-
-***

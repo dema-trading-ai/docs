@@ -30,6 +30,28 @@ body {
     background: linear-gradient(#4051b5, #393986);
     color: white;
 }
+a#get-paid-button {
+    color: white;
+    border-color:white;
+}
+
+a#get-paid-button:hover {
+    color:inherit;
+    border-color:var(--md-accent-fg-color);
+}
+
+.install-command-label {
+    color:var(--md-accent-fg-color)!important;
+}
+
+.install-command-label:hover {
+    color:#f4f4f4!important;
+}
+
+#install-commands >input:checked+label {
+    border-color:white!important;
+    color:#f4f4f4!important;
+}
 h1 {
 }
 </style>
@@ -51,14 +73,14 @@ h1 {
                    class="md-button md-button--primary">
                     Quick start
                 </a>
-                <a href="{{ 'getting_paid/algocreatorpaid' | url }}" title="Getting paid" class="md-button">
+                <a href="{{ 'getting_paid/algocreatorpaid' | url }}" title="Getting paid" class="md-button" id="get-paid-button">
                     Get paid
                 </a>
             </div>
             <div class="mdx-hero__image">
                 <h1 style="color: white">Install</h1>
-                <div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1"
-                                                               type="radio"><label for="__tabbed_1_1">MacOS</label>
+                <div class="tabbed-set" id="install-commands" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1"
+                                                               type="radio"><label for="__tabbed_1_1" class="install-command-label">MacOS</label>
                     <div class="tabbed-content">
                         <div class="highlight"><pre id="__code_0"><span></span><button class="md-clipboard md-icon"
                                                                                        title="Copy to clipboard"
@@ -67,7 +89,7 @@ h1 {
 </code></pre>
                         </div>
                     </div>
-                    <input id="__tabbed_1_2" name="__tabbed_1" type="radio"><label for="__tabbed_1_2">Windows</label>
+                    <input id="__tabbed_1_2" name="__tabbed_1" type="radio"><label for="__tabbed_1_2" class="install-command-label">Windows</label>
                     <div class="tabbed-content">
                         <div class="highlight"><pre id="__code_1"><span></span><button class="md-clipboard md-icon"
                                                                                        title="Copy to clipboard"

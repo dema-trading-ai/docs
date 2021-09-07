@@ -1,5 +1,4 @@
 # Trading 101.
-***
 ## A basic guide to trading.
 ***
 ### Getting started with trading.
@@ -16,5 +15,8 @@ As explained on other pages, DemaTrading can assist you in automating and optimi
 That means that even if you are far away, the bot itself will still continue on to perform trades given the configuration you've given it. The configuration itself can be adjusted fairly easily which can be seen in pages such as the strategy examples page or the page of creating strategies. 
 ***
 ### I keep seeing all these terms and I'm not sure what they all mean!
-Don't be afraid! There are a lot of terms that can frighten you, but most of them will be described in the basic terms and the advanced terms. We aim to give you more knowledge for both you and your strategies; this in return, allows you to be able to have more knowledge and make your strategies and/or knowledge into an optimized bot.
+Don't be afraid! There are a lot of terms that can frighten you, but most of them will be described in the [basic term sheet](https://docs.dematrading.ai/getting_started/trading101/termsheet/). We aim to give you more knowledge for both you and your strategies; this in return, allows you to improve and invest that knowledge into a further optimized bot.
 
+***
+
+Ready for more? Click [here](https://docs.dematrading.ai/getting_started/strategies/strategyexamples/) for strategy examples.

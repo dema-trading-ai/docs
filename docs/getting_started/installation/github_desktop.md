@@ -2,7 +2,7 @@
 ***
 ## How to use Github Desktop.
 
-We use Github Desktop for version control, allowing you to organize your strategies and share them with us. The following steps should help you set it up. 
+Github Desktop is a recommended interface for version control, allowing you to organize your strategies. The following steps should help you set it up. 
 
 #### Installing Github Desktop
 1. [Download](https://desktop.github.com/) and install Github Desktop.

@@ -1,5 +1,4 @@
 # Quickstart using Docker
-***
 !!! attention
     This guide assumes that docker and docker-compose are already installed on your system. ([click here to download Docker](https://docs.docker.com/get-docker/))
 
@@ -9,13 +8,12 @@ The following commands will initialise the file structure used by the Engine. Ru
 ```
 docker run -t --rm -v "$(pwd):/usr/src/engine/output" dematrading/engine:stable init <YOUR_DIRECTORY_NAME>
 ```
-The above snippet creates a new directory called 'dema-engine' and changes the working directory to the folder we just created. 
-Notice how a config file, a strategy file and a backtesting folder have been created. Those will be used when running the Engine.
-
+The above snippet creates a new directory containing a config file, a strategy file and a backtesting folder. Those will be used when running the Engine.
+Note that you need to fill in the placeholder `<YOUR_DIRECTORY_NAME>`.
 
 
 ## Backtesting
-Once this is done, you're ready to start the first backtest. This can be done by running the command below.
+Once the above is done, you're ready to start the first backtest. This can be done by running the command below.
 ```
 # Run your first backtest
 docker-compose run --rm dema-engine

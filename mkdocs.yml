@@ -3,16 +3,19 @@ nav:
     - Home: index.md
     - Getting Started:
         - Installation:
-            - Installing: getting_started/installation/installation.md
-            - Configuring Backtesting: getting_started/installation/configuring_backtest.md
-            - Github Desktop: getting_started/installation/github_desktop.md
-        - Platforms:
-            - Installing on MacOS / Linux: getting_started/installation/mac_os.md
-            - Installing on Windows: getting_started/installation/windows.md
-            - Installing with M1 chip: getting_started/installation/mac_os_m1.md
-        - Running:
-            - Running The Engine (Docker): getting_started/running/running_docker.md
-            - Running The Engine (Python): getting_started/running/running_python.md
+            - Quickstart: getting_started/installation/executables.md
+            - Installing:
+                - Executable: getting_started/installation/executables.md
+                - Docker: getting_started/installation/running_docker.md
+                - MacOS/Linux: getting_started/installation/mac_os.md
+                - Windows: getting_started/installation/windows.md
+#        - Platforms:
+#            - Installing on MacOS / Linux: getting_started/installation/mac_os.md
+#            - Installing on Windows: getting_started/installation/windows.md
+#            - Installing with M1 chip: getting_started/installation/mac_os_m1.md
+#        - Running:
+#            - Running The Engine (Docker): getting_started/installation/running_docker.md
+#            - Running The Engine (Python): getting_started/running/running_python.md
         - Trading 101:
             - Trading Basics: getting_started/trading101/trading101.md
             - Termsheet: getting_started/trading101/termsheet.md
@@ -22,11 +25,11 @@ nav:
             - Advanced strategy creation: getting_started/strategies/advcreatingstrat.md
         - Backtesting:
             - Configuration: getting_started/backtesting/config.md
+            - Configuring Backtesting: getting_started/installation/configuring_backtest.md
             - Backtesting arguments: getting_started/backtesting/arguments.md
             - Results: getting_started/backtesting/results.md
         - Experimental:
             - "[experimental] Hyperparameter optimization": getting_started/experimental/hyperopt.md
-            - "[experimental] Installation": getting_started/experimental/executables.md
 
     - Getting Paid:
         - For algo creators: getting_paid/algocreatorpaid.md
@@ -53,10 +56,11 @@ theme:
     favicon: assets/logo.png
     custom_dir: custom-material/
     features:
-        - navigation.expand
         - navigation.tabs
         - navigation.tabs.sticky
         - navigation.sections
+        - navigation.top
+        - navigation.indexes
 
     palette:
         # Light mode

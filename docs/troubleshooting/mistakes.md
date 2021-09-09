@@ -1,6 +1,6 @@
 # Strategy Mistakes
 
-### Getting Previous Candle
+## Getting Previous Candle
 You can access data from the previous candle using ``.shift(1)``:
 ````python
 previous_candle = dataframe['close'].shift(1)

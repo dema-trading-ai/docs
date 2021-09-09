@@ -25,7 +25,7 @@ macd = ta.MACD(dataframe, fastperiod=10, slowperiod=20, signalperiod=9)
 Check the [TA-Lib documentation](https://mrjbq7.github.io/ta-lib/func_groups/momentum_indicators.html) for an overview of 
 all indicators, their parameters and their default values.
 
-### Using .mean()
+## Using .mean()
 If you are using .mean() in for example ``dataframe['volume'].mean()`` you should always add the ``.rolling()`` before the .mean, otherwise the average would be based on ALL of the available data from the dataframe. See the code example below:
 ```python
 dataframe['volume'].rolling(14).mean()

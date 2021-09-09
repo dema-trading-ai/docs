@@ -6,7 +6,7 @@ You can access data from the previous candle using ``.shift(1)``:
 previous_candle = dataframe['close'].shift(1)
 ````
 
-### Getting MACD values
+## Getting MACD values
 Some indicators return multiple values. This means that you have to 'unpack' the results of that indicator. See the example
 below, demonstrated with MACD.
 ````python

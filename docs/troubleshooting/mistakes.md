@@ -16,7 +16,7 @@ dataframe['macdsig'] = macd['macdsignal']
 dataframe['macdhist'] = macd['macdhist']
 ````
 
-### Setting custom indicator values
+## Setting custom indicator values
 Many indicators use default values for certain parameters. However, you can overwrite these values to obtain the desired
 behaviour. See below for an example using MACD.
 ````python

@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-### Why is the default fee set at 0.25%
+## Why is the default fee set at 0.25%
 The default value of the fee is 0.25% for both entries and exits. That means a round trip for a trade (buy and sell) 
 costs 0.5%. This value accounts for higher commissions on 3rd partner platforms and exchanges. Backtesting will therefore 
 more closely resemble a live trading environment.

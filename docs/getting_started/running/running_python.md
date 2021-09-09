@@ -14,7 +14,8 @@
    python main.py
    ```
    
-!!! attention Running without Docker? You will have to manually download the repository on your computer.
+!!! attention "Running without Docker?" 
+    You will have to manually download the repository on your computer.
     This can be done by [downloading the zip file](https://github.com/dema-trading-ai/engine/archive/refs/heads/main.zip)
     or by [cloning the engine](https://github.com/dema-trading-ai/engine) using [Github Desktop](https://desktop.github.com)
     (or something similar). 

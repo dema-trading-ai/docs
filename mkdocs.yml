@@ -61,7 +61,6 @@ theme:
         - navigation.sections
         - navigation.top
         - navigation.indexes
-
     palette:
         # Light mode
         - media: "(prefers-color-scheme: light)"

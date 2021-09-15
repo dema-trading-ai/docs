@@ -15,6 +15,7 @@ jobs:
       - run: pip install -r ./requirements.txt
       - name: Install Insiders Version of MkDocs Material
         run: |
-          export TOKEN=${GH_TOKEN}
           pip install git+https://dema-trading-ai:${TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+        env:
+          TOKEN: ${GH_TOKEN}
       - run: mkdocs gh-deploy --force

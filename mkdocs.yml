@@ -25,7 +25,7 @@ nav:
             - Advanced strategy creation: getting_started/strategies/advcreatingstrat.md
         - Backtesting:
             - Configuration: getting_started/backtesting/config.md
-            - Configuring Backtesting: getting_started/installation/configuring_backtest.md
+            - Configuring Backtesting: getting_started/backtesting/configuring_backtest.md
             - Backtesting arguments: getting_started/backtesting/arguments.md
             - Results: getting_started/backtesting/results.md
         - Experimental:

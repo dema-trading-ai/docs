@@ -15,7 +15,7 @@ Installing the Engine on a Windows device requires the following steps:
 4. Open a terminal (e.g. Windows Powershell) and change to the downloads folder:
 `cd [PATH/TO/DOWNLOADS/FOLDER]`
 
-5. Install the TA-lib wheel by running this command:
+5. Install the TA-Lib wheel by running this command:
 `pip install [TA_Lib-wheel].whl`
 
 6. Clone the [Engine github repository](https://github.com/dema-trading-ai/engine) on your computer.

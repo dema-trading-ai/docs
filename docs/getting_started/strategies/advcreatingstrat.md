@@ -3,7 +3,7 @@
 ## Additional pairs
 
 The additional pairs functionality allows you to have candle data available for other coins and timeframes,
-other than the current iteration of the run. This allows for more advanced strategies that take the broader
+other than the current iteration of the run. This allows for more advanced strategies that take broader
 market conditions into account.
 
 To use this functionality, the `additional_pairs()` function needs to be defined in your strategy class. A `("coin", "timeframe")`
@@ -146,7 +146,7 @@ class MyStrategyAdvanced(Strategy):
 !!! note "Looking for a specific indicator?"
     Refer to [this](https://github.com/dema-trading-ai/engine/blob/main/modules/setup/config/technical_indicators.py) file for an up-to-date list of custom-coded indicators.
 
-Renowned packages such as Talib and qtpylib provide a wide range of technical analysis tools. However, sometimes a specific
+Renowned packages such as TA-Lib and QTPyLib provide a wide range of technical analysis tools. However, sometimes a specific
 indicator is missing. This often results in custom-coded indicators, based on their formal definitions. 
 These custom indicators are collected and made available to all users of the Engine. The aim is to constantly complement
 the list. We also encourage users that coded their own indicators to contribute to this collection.

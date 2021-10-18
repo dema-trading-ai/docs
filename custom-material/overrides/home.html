@@ -57,7 +57,22 @@ a#get-paid-button:hover {
     border-color:white!important;
     color:#f4f4f4!important;
 }
-h1 {
+
+.mdx-hero {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 32px 16px
+}
+
+@media (max-width: 680px) {
+  .mdx-hero {
+    grid-auto-flow: row!important;
+  }
+
+  .mdx-hero__image {
+    margin-top: 32px!important;
+  }
 }
 </style>
 <section class="main-bg" style="position: relative">
@@ -70,7 +85,7 @@ h1 {
     </svg>
 </div>
     <div  class="md-grid md-typeset">
-        <div style="display: grid; grid-auto-flow: column; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); margin: 32px 16px" class="mdx-hero">
+        <div style="" class="mdx-hero">
             <div class="mdx-hero__content">
                 <h1 style="color: white">Backtesting Engine</h1>
                 <p>An open source backtesting Engine for cryptocurrency trading.</p>

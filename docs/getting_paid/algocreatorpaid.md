@@ -1,6 +1,6 @@
 # How we can help you with the monetisation of your algorithm
 
-At DemaTrading.ai we aim to facilitate you - as an algorithm supplier - with a platform for your algorithms, and strategies to flourish. Founded with the vision in mind to be able to be a partner for everyone, no matter the experience We help traders to automate, optimise, and monetise their trading strategies. No experience with trading? No experience with the complicated programming? We can and will help you in your learning journey! 
+At DemaTrading.ai we aim to facilitate you - as an algorithm supplier - with a platform for your algorithms, and strategies to flourish. Founded with the vision in mind to be able to be a partner for everyone, no matter the experience. We help traders to automate, optimise, and monetise their trading strategies. No experience with trading? No experience with the complicated programming? We can and will help you in your learning journey! 
 
 ***
 ## For manual traders

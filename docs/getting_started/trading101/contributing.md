@@ -9,5 +9,5 @@ If you have trouble understanding our engine, the following resources could be u
 - [Trading skills](https://www.babypips.com/learn/forex) _babypips provides a good set of courses to assist in terms of learning how to do Forex trading_.
 ***
 ## Python coding guidelines
-Python uses [PEP-8](https://www.python.org/dev/peps/pep-0008/), which is the style guide for it. These would be the coding guidelines in order for your code to work correspondently and be readable to anyone following the guidelines. While certain aspects of it aren't completely mandatory, it is adviced you stick to these guidelines as well as you can to prevent any errors happening due to breaking said guidelines.
+Python uses [PEP-8](https://www.python.org/dev/peps/pep-0008/), which is the style guide for it. These would be the coding guidelines in order for your code to work correspondently and be readable to anyone following the guidelines. While certain aspects of it aren't completely mandatory, it is advised that you stick to these guidelines as well as you can to prevent any errors happening due to breaking said guidelines.
 

@@ -14,10 +14,10 @@ For this strategy we decided we want to use RSI and EMA indicators to trigger bu
 ``dataframe['rsi'] = ta.RSI(dataframe)``
 
 !!! attention
-    Setting this to another value than the maximum span of candles used will result in distorted results or errors.
+    Setting this to something other than the maximum span of candles used will result in distorted results or errors.
 
 !!! note
-    When creating a strategy, make sure to include a 'timeperiod' in all of the talib functions. This means that you should turn 
+    When creating a strategy, make sure to include a 'timeperiod' in all of the TA-Lib functions. This means that you should turn 
 ```python 
    dataframe['rsi'] = ta.RSI(dataframe)
 ```
@@ -42,7 +42,7 @@ current_candle['volume'] > 0
 ```
 
 ### Minimum candles 
-On the top of ``my_strategy.py``, ``min_candles`` is defined. This is used as an offset for the amount of candles needed to calculate the biggest indicator. In our case, SMA(21) needs atleast 21 candles to work properly. Therefore, we set ``min_candles`` to 21. 
+On the top of ``my_strategy.py``, ``min_candles`` is defined. This is used as an offset for the amount of candles needed to calculate the biggest indicator. In our case, EMA(21) needs atleast 21 candles to work properly. Therefore, we set ``min_candles`` to 21. 
 
 ### Configuration
 In the ``config.json`` file you will find all necessary and important configuration options. 
@@ -58,7 +58,7 @@ The ROI table in the configuration is used to sell at a certain percentage of pr
 This configuration means positions will always be closed if the profit is higher than 5%. After an hour (60 minutes) the position will automatically be closed if the profit is higher than 4%.
 
 #### Stop loss
-The stoploss (SL) function is to prevent extreme loses. The SL value in the configuration file could be a `float` or an `int`.
+The stoploss (SL) function is to prevent extreme losses. The SL value in the configuration file could be a `float` or an `int`.
 ```json
   "stoploss": "-0.5",
 ```
@@ -81,7 +81,7 @@ Now you've seen how we configured all the basic settings and buy/sell signals. F
 ### Configuring indicators
 You can have a look at the `indicator_sample.py` file under the `strategies` directory on how to configure indicators for your strategy. 
 
-In this file, we have compiled a vast amount of Tradingview indicators along with the required `int` (whole numbers). The only thing you'd have to add yourself besides the presented code that contains the indicator you wish to use, is to add a timeperiod within the brackets to ensure that there's a scope in time during which you want to perform the backtest. 
+In this file, we have compiled a large amount of TradingView indicators along with the required `int` (whole numbers). The only thing you'd have to add yourself besides the presented code that contains the indicator you wish to use, is to add a time period within the brackets to ensure that there's a scope in time during which you want to perform the backtest. 
 ### Using indicators in sell/buy signal
 Have a look at the [sell signal](#sell-signal) or [buy signal](#buy-signal) part of the sample strategy. Other python logic and external packages could be applied to the buy/sell signal, as long as it's a condition. 
 
@@ -98,5 +98,5 @@ current_candle.loc[
 In this case, a position opens when RSI is either below 30 **or** above 40. 
 
 ### Configuring Stoploss / Return On Investment
-Stoploss and ROI are really important when creating an algorithm. These will make sure you get the best from your strategy, while not putting everything is at risk.
+Stoploss and ROI are really important when creating an algorithm. These will make sure you get the best from your strategy, while not putting everything at risk.
 

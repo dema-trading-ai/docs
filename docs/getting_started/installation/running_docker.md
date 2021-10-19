@@ -28,7 +28,7 @@ Updating is done by running the following command:
 # Update the engine
 docker-compose pull
 ```
-The above command will pull the newest version of the Engine for you. Thats all there is to it! The next time you run a backtest, the newest version will be used. 
+The above command will pull the newest version of the Engine for you. That's all there is to it! The next time you run a backtest, the newest version will be used. 
 
 
 ## Whats next?

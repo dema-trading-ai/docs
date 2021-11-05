@@ -1,4 +1,4 @@
-# Trading 101.
+# Trading 101
 ## A basic guide to trading.
 ***
 ### Getting started with trading.

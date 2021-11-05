@@ -1,5 +1,5 @@
 # Trading 101.
-## A basic guide to trading.
+## A basic guide to trading
 ***
 ### Getting started with trading.
 To start with trading, the first thing you need is volume in one of the coins you desire to trade with. With this volume, you can both sell and buy; selling means selling your current liquidity (in the form of crypto) at the price given at the current prize (usually displayed within the candle and via the book order). Buying means buying, simply buying the asset at the current prize which - just like selling - shows via the candles and the book order.

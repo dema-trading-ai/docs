@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 # Changelog
 
 ## Version 0.7

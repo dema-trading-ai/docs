@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 # Developing a strategy
 On this page you will learn how to get started with developing your very own strategy. To give you a headstart, we included a sample strategy which can be found in ``/strategies/my_strategy.py``. 
 ***

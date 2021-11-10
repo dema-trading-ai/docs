@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 # Frequently Asked Questions
 
 ## Why is the default fee set at 0.25%

@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 # Advanced Algorithm Creation
 ***
 ## Additional pairs

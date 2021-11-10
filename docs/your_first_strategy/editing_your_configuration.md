@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 # Configuration
 The backtest has a lot of configurable parameters, which are all defined in the config file ```config.json```. The
 standard ```config.json``` looks like this:

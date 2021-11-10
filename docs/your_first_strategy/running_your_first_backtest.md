@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 # Configuring your backtest
 
 ## Configuration

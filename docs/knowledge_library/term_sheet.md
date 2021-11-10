@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 # Termsheet
 
 ## Hold

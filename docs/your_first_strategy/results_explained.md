@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 # Results
 ## Backtesting Results
 ![Backtesting Results](imgs/backtesting-results.png)

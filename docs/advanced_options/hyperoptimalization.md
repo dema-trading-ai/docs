@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 # [experimental] Hyperparameter optimization
 
 ## Usage

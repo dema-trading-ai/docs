@@ -1,6 +1,11 @@
-# Standalone executable install
+---
+hide:
+  - toc
+---
 
-## Installation
+# Install Engine via executable
+
+## Installation & updating
 ***
 ### Mac
 From a terminal, execute the following command: 

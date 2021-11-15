@@ -1,53 +1,27 @@
 site_name: DemaTrading.ai
 nav:
     - Home: index.md
-    - Getting Started:
-        - Installation:
-            - Quickstart: getting_started/installation/executables.md
-            - Installing:
-                - Executable: getting_started/installation/executables.md
-                - Docker: getting_started/installation/running_docker.md
-                - MacOS/Linux: getting_started/installation/mac_os.md
-                - Windows: getting_started/installation/windows.md
-#        - Platforms:
-#            - Installing on MacOS / Linux: getting_started/installation/mac_os.md
-#            - Installing on Windows: getting_started/installation/windows.md
-#            - Installing with M1 chip: getting_started/installation/mac_os_m1.md
-#        - Running:
-#            - Running The Engine (Docker): getting_started/installation/running_docker.md
-#            - Running The Engine (Python): getting_started/running/running_python.md
-        - Trading 101:
-            - Trading Basics: getting_started/trading101/trading101.md
-            - Termsheet: getting_started/trading101/termsheet.md
-            - Contributing: getting_started/trading101/contributing.md
-        - Strategies:
-            - Strategy Examples: getting_started/strategies/strategyexamples.md
-            - Advanced strategy creation: getting_started/strategies/advcreatingstrat.md
-        - Backtesting:
-            - Configuration: getting_started/backtesting/config.md
-            - Configuring Backtesting: getting_started/backtesting/configuring_backtest.md
-            - Backtesting arguments: getting_started/backtesting/arguments.md
-            - Results: getting_started/backtesting/results.md
-        - Experimental:
-            - "[experimental] Hyperparameter optimization": getting_started/experimental/hyperopt.md
-
-    - Getting Paid:
-        - For algo creators: getting_paid/algocreatorpaid.md
-        - For investors: getting_paid/investorpaid.md
-    - Troubleshooting:
-        - Strategy mistakes: troubleshooting/mistakes.md
-        - Docker: troubleshooting/docker.md
-        - FAQ: troubleshooting/troubleshooting.md
-    - Changelog:
-        - V0.1: changelog/v01.md
-        - v0.2: changelog/v02.md
-        - v0.3: changelog/v03.md
-        - v0.4: changelog/v04.md
-        - v0.5: changelog/v05.md
-        - v0.6: changelog/v06.md
-        - v0.7: changelog/v07.md
-        - Major changes: changelog/majorchanges.md
-        - Current known bugs: changelog/knownbugs.md
+    - 1 - Installation & Updating:
+        - 1.1 Installation & Updating: installation_and_updating/executable.md
+    - 2 - Your first strategy:
+        - 2.1 Strategy explained: your_first_strategy/strategy_explained.md
+        - 2.2 Running your first backtest: your_first_strategy/running_your_first_backtest.md
+        - 2.3 Results explained: your_first_strategy/results_explained.md
+        # - 2.4 Editing your buy and sell signal: TBC.md
+        # - 2.5 Adjusting your Stoploss and ROI: TBC.md
+        - 2.4 Editing your configuration: your_first_strategy/editing_your_configuration.md
+    - 3 - Advanced options:
+        - 3.1 Additional pairs: advanced_options/additional_pairs.md
+        - 3.2 Hyperoptimalization: advanced_options/hyperoptimalization.md
+    - 4 - Knowledge library:
+        - 4.1 Trading Basics: knowledge_library/trading_basics.md
+        - 4.2 Term sheet: knowledge_library/term_sheet.md
+        # - 4.3 Finding strategy inspiration: TBC.md
+        - 4.3 Troubleshooting: knowledge_library/troubleshooting.md
+        - 4.4 FAQ: knowledge_library/faq.md
+        - 4.5 Changelog: knowledge_library/changelog.md
+    - 5 - Publishing your strategy:
+        - 5.1 Publishing your strategy: publishing_your_strategy/publishing_your_strategy.md
 
 theme:
     name: material
@@ -56,8 +30,6 @@ theme:
     favicon: assets/logo.png
     custom_dir: custom-material/
     features:
-        - navigation.tabs
-        - navigation.tabs.sticky
         - navigation.sections
         - navigation.top
         - navigation.indexes

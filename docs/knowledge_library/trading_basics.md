@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 # Trading 101
 ## A basic guide to trading.
 ***

@@ -1,26 +1,27 @@
 site_name: DemaTrading.ai
 nav:
-    - Installation & Updating:
-        - Installation & Updating: installation_and_updating/executable.md
-    - Your first strategy:
-        - Strategy explained: your_first_strategy/strategy_explained.md
-        - Running your first backtest: your_first_strategy/running_your_first_backtest.md
-        - Results explained: your_first_strategy/results_explained.md
-        - Editing your buy and sell signal: TBC.md
-        - Adjusting your Stoploss and ROI: TBC.md
-        - Editing your configuration: your_first_strategy/editing_your_configuration.md
-    - Advanced options:
-        - Additional pairs: advanced_options/additional_pairs.md
-        - Hyperoptimalization: advanced_options/hyperoptimalization.md
-    - Knowledge library:
-        - Trading Basics: knowledge_library/trading_basics.md
-        - Term sheet: knowledge_library/term_sheet.md
-        - Finding strategy inspiration: TBC.md
-        - Troubleshooting: knowledge_library/troubleshooting.md
-        - FAQ: knowledge_library/faq.md
-        - Changelog: knowledge_library/changelog.md
-    - Publishing your strategy:
-        - Publishing your strategy: publishing_your_strategy/publishing_your_strategy.md
+    - Home: index.md
+    - 1 - Installation & Updating:
+        - 1.1 Installation & Updating: installation_and_updating/executable.md
+    - 2 - Your first strategy:
+        - 2.1 Strategy explained: your_first_strategy/strategy_explained.md
+        - 2.2 Running your first backtest: your_first_strategy/running_your_first_backtest.md
+        - 2.3 Results explained: your_first_strategy/results_explained.md
+        # - 2.4 Editing your buy and sell signal: TBC.md
+        # - 2.5 Adjusting your Stoploss and ROI: TBC.md
+        - 2.4 Editing your configuration: your_first_strategy/editing_your_configuration.md
+    - 3 - Advanced options:
+        - 3.1 Additional pairs: advanced_options/additional_pairs.md
+        - 3.2 Hyperoptimalization: advanced_options/hyperoptimalization.md
+    - 4 - Knowledge library:
+        - 4.1 Trading Basics: knowledge_library/trading_basics.md
+        - 4.2 Term sheet: knowledge_library/term_sheet.md
+        # - 4.3 Finding strategy inspiration: TBC.md
+        - 4.3 Troubleshooting: knowledge_library/troubleshooting.md
+        - 4.4 FAQ: knowledge_library/faq.md
+        - 4.5 Changelog: knowledge_library/changelog.md
+    - 5 - Publishing your strategy:
+        - 5.1 Publishing your strategy: publishing_your_strategy/publishing_your_strategy.md
 
 theme:
     name: material

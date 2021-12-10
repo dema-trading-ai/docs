@@ -5,7 +5,7 @@ hide:
 
 # Installation
 If you want to install the Engine, all you have to do is to run a single command in your terminal. Based on which
-operating system you are using, you follow the instructions below. For MacOS follow the instructions below. If you are
+operating system you are using, you follow the instructions below. For MacOS follow the instructions below. Are you
 using Windows? Take a look at the instructions in the Windows section.
 
 ## MacOS

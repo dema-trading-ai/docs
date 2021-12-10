@@ -2,7 +2,9 @@ site_name: DemaTrading.ai
 nav:
     - Home: index.md
     - 1 - Installation & Updating:
-        - 1.1 Installation & Updating: installation_and_updating/executable.md
+        - 1.1 Installation: installation_and_updating/installation.md
+        - 1.2 Running: installation_and_updating/running.md
+        - 1.3 Updating: installation_and_updating/updating.md
     - 2 - Your first strategy:
         - 2.1 Strategy explained: your_first_strategy/strategy_explained.md
         - 2.2 Running your first backtest: your_first_strategy/running_your_first_backtest.md
@@ -63,6 +65,7 @@ markdown_extensions:
   - toc:
       permalink: "#"
       separator: "-"
+  - attr_list
 use_directory_urls: true
 plugins:
     - mkdocs-video

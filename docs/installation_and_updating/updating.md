@@ -4,7 +4,7 @@ hide:
 ---
 
 # Updating
-The Engine gets regular updates. It is wise to always make sure you are running the newest version of the Engine. With
+The Engine is updated regularly. For optimal performance make sure you are running the newest version of the Engine. With
 the newest version, you’re always up-to-date! When an update is available, and you run the Engine using the commands
 explained in the previous section, it will notify you in the terminal with a message similar to this:
 ```

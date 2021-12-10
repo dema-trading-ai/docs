@@ -5,7 +5,7 @@ hide:
 
 # Running
 
-Once you have successfully installed the engine, it is time to run it. Open a terminal (MacOS) or Powershell (with
+Once you have successfully installed the Engine, it is time to run it. Open a terminal (MacOS) or Powershell (with
 administrator rights) (Windows), and execute the following commands.
 
 To create your project in a new folder, use the following command:
@@ -18,7 +18,7 @@ Move to the directory you just created with the following command:
 cd <YOUR_DIRECTORY_NAME>
 ```
 
-Then, to run the engine, simply execute the following command:
+Then, to run the Engine, simply execute the following command:
 ```
 engine
 ```

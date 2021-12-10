@@ -18,7 +18,7 @@ Move to the directory you just created with the following command:
 cd <YOUR_DIRECTORY_NAME>
 ```
 
-Then, to run the engine, simply execute the following command:
+Then, to run the Engine, simply execute the following command:
 ```
 engine
 ```

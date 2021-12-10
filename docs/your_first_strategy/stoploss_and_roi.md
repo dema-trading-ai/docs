@@ -2,7 +2,7 @@
 hide:
   - toc
 ---
-# Configuring your backtest
+# Stoploss and ROI
 
 ## Configuration
 

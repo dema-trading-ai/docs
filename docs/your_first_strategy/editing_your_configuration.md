@@ -113,7 +113,7 @@ When using a stoploss you can use three different types, which can be altered by
 
 ### ROI
 Defines the Return On Investment (```roi```) sell signals. See the 
-[Termsheet](https://docs.dematrading.ai/getting_started/trading101/termsheet/#roi) for more information. ROI is used to
+[Termsheet](/knowledge_library/term_sheet/#roi) for more information. ROI is used to
 close a trade when a certain ROI is reached. In addition, you can also specify after how many minutes the trade should 
 be closed. In the ```config.json``` the standard configuration is:
 ```

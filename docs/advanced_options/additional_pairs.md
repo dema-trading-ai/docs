@@ -148,7 +148,7 @@ class MyStrategyAdvanced(Strategy):
 
 ## Custom Indicators
 !!! note "Looking for a specific indicator?"
-    Refer to [this](https://github.com/dema-trading-ai/engine/blob/main/modules/setup/config/technical_indicators.py) file for an up-to-date list of custom-coded indicators.
+    Refer to [this](https://github.com/dema-trading-ai/engine/blob/main/modules/public/technical_indicators.py) file for an up-to-date list of custom-coded indicators.
 
 Renowned packages such as TA-Lib and QTPyLib provide a wide range of technical analysis tools. However, sometimes a specific
 indicator is missing. This often results in custom-coded indicators, based on their formal definitions. 

@@ -19,10 +19,10 @@ This table shows the performance of the strategy on portfolio level.
 * **Overall profit**: total profit percentage.
 
 * **Max. realised drawdown**: see 
-  [Termsheet](https://docs.dematrading.ai/getting_started/trading101/termsheet/#realised-drawdown).
+  [Termsheet](/knowledge_library/term_sheet/#realised-drawdown).
   
 * **Max. seen drawdown**: see 
-  [Termsheet](https://docs.dematrading.ai/getting_started/trading101/termsheet/#seen-drawdown).
+  [Termsheet](/knowledge_library/term_sheet/#seen-drawdown).
   
 * **Max. seen drawdown from**: starting date of the drawdown period where the max. seen drawdown 
   occured.

@@ -45,7 +45,7 @@ This table shows the trade information combined over all whitelisted pairs. A br
 terms used:
 
 
-* **Amount of trades**: total number of trades the strategy has been able to open (buy) and close (sell). Left-open
+* **Amount of trades**: total number of times the strategy has opened (buy) and closed (sell) a trade. Left-open
 trades (trades that are bought but not sold yet, by the time the backtesting period ended) are not counted in this.
 * **Avg. trades per day**: average amount of trades the strategy has performed per day.
 * **Left-open trades**: total amount of trades which were opened but not closed.

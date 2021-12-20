@@ -79,6 +79,8 @@ def stoploss(self, dataframe: DataFrame) -> DataFrame:
         dataframe['stoploss'] = dataframe['ema5']
 
         # END STRATEGY
+        
+        return dataframe
 ```
 ***
 ## OHLCV

@@ -24,8 +24,9 @@ settings mean, we explain them in
 This table shows the performance of the strategy (on portfolio level, so not divided by coin pair). A brief
 explanation of each of the terms used:
 
-* **End capital**: total amount of capital at the end of backtesting period. This capital is the sum of the budget
-(that can be used to start new trades) and the total worth of your open trades (converted to your base currency).
+* **End capital**: total amount of capital at the end of backtesting period. This capital is the sum of your current
+budget (the available funds that can be used to start new trades) and the total worth of your open trades (converted
+to your base currency).
 * **Overall profit**: total profit percentage (100 * starting capital / end capital)
 * **Max. realised drawdown**: for a more detailed explanation, see the [Termsheet](/knowledge_library/term_sheet).
 * **Max. seen drawdown**: for a more detailed explanation, see the [Termsheet](/knowledge_library/term_sheet).
@@ -44,7 +45,8 @@ This table shows the trade information combined over all whitelisted pairs. A br
 terms used:
 
 
-* **Amount of trades**: total number of trades the strategy has been able to open (buy) and close (sell).
+* **Amount of trades**: total number of trades the strategy has been able to open (buy) and close (sell). Left-open
+trades (trades that are bought but not sold yet, by the time the backtesting period ended) are not counted in this.
 * **Avg. trades per day**: average amount of trades the strategy has performed per day.
 * **Left-open trades**: total amount of trades which were opened but not closed.
 * **Trades with loss**: total amount of trades that have closed with a negative profit percentage.

@@ -79,6 +79,8 @@ def stoploss(self, dataframe: DataFrame) -> DataFrame:
         dataframe['stoploss'] = dataframe['ema5']
 
         # END STRATEGY
+        
+        return dataframe
 ```
 ***
 ## OHLCV
@@ -150,5 +152,5 @@ config file,  and add the main plot and subplot indicators you wish to see.
 ***
 ## Getting started
 
-Now you've seen how we configured all the basic settings and buy/sell signals. From now on, you can start working on **your very own trading algorithms**. More information regarding this can be found on the [strategies](https://docs.dematrading.ai/getting_started/strategies/strategyexamples/) page.
+Now you've seen how we configured all the basic settings and buy/sell signals. From now on, you can start working on **your very own trading algorithms**.
 

@@ -28,8 +28,8 @@ explanation of each of the terms used:
 budget (the available funds that can be used to start new trades) and the total worth of your open trades (converted
 to your base currency).
 * **Overall profit**: total profit percentage (100 * starting capital / end capital)
-* **Max. realised drawdown**: for a more detailed explanation, see the [Termsheet](/knowledge_library/term_sheet).
-* **Max. seen drawdown**: for a more detailed explanation, see the [Termsheet](/knowledge_library/term_sheet).
+* **Max. realised drawdown**: for a more detailed explanation, see the [Termsheet](/knowledge_library/term_sheet/#realised-drawdown).
+* **Max. seen drawdown**: for a more detailed explanation, see the [Termsheet](/knowledge_library/term_sheet/#seen-drawdown).
 * **Max. seen drawdown from**: the starting date of the drawdown period where the max. seen drawdown occurred.
 * **Max. seen drawdown to**: the end date of the drawdown period where the max. seen drawdown occurred. If this is a
 ‘-’ instead of a date, that means that the drawdown period has not yet ended when the backtest concluded.

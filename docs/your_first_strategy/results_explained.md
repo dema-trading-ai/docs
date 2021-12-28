@@ -134,6 +134,8 @@ You can add or change any indicators shown in these plots, by changing your conf
 The equity plot can be found in the plots/equity folder. This graph shows the capital of your trading algorithm over
 time. The horizontal parts of the graph signify moments where the algorithm had no trades open.
 
+Depending on your preference, you can toggle between a linear view and a logarithmic view of the y-axis. Furthermore, in the top right of the plot you will find a menu bar with several functionalities like: export, zoom, pan, and more.
+
 ## Trade Logs
 If you need an even more detailed insight into the behaviour of the trading algorithm, you can take a look at the
 trades log. This is where all trades of the algorithm are logged in json format. You can find the trades log in the

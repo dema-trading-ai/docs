@@ -45,7 +45,7 @@ This table shows the trade information combined over all whitelisted coins. A br
 terms used:
 
 
-* **Amount of trades**: total number of trades the strategy has been able to open (buy) and close (sell). Left-open
+* **Amount of trades**: total number of times the strategy has opened (buy) and closed (sell) a trade. Left-open
 trades (trades that are bought but not sold yet, by the time the backtesting period ended) are not counted in this.
 * **Avg. trades per day**: average amount of trades the strategy has performed per day.
 * **Left-open trades**: total amount of trades which were opened but not closed.
@@ -133,6 +133,8 @@ You can add or change any indicators shown in these plots, by changing your conf
 ![Equity Plot](imgs/equity_plot.png) <br>
 The equity plot can be found in the plots/equity folder. This graph shows the capital of your trading algorithm over
 time. The horizontal parts of the graph signify moments where the algorithm had no trades open.
+
+Depending on your preference, you can toggle between a linear view and a logarithmic view of the y-axis. Furthermore, in the top right of the plot you will find a menu bar with several functionalities like: export, zoom, pan, and more.
 
 ## Trade Logs
 If you need an even more detailed insight into the behaviour of the trading algorithm, you can take a look at the

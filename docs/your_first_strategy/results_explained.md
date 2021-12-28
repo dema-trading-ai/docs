@@ -150,7 +150,9 @@ like this:
    "pair": "BTC/USDT",
    "open_price": 31038.63,
    "close_price": 31969.788900000003,
-   "fee_paid": 0.0025,
+   "fee_paid_open": 0.8430018055555556,
+   "fee_paid_close": 0.8745300730833334,
+   "fee_paid_total": 1.717531878638889,
    "starting_amount": 333.3333333333333,
    "capital": 341.61881250000005,
    "currency_amount": 0.01071245734750535,
@@ -167,7 +169,9 @@ This includes the following statistics:
 * **Open price**: The price in base currency on the moment the trade was opened
 * **Close price**: The price in base currency on the moment the trade was closed. Will be null when the trade is still
 open.
-* **Fees paid**: The amount that was paid in buy- and sell-fees.
+* **Fee paid open**: The amount that was paid in buy-fees.
+* **Fee paid close**: The amount that was paid in sell-fees, if applicable.
+* **Fee paid total**: The total amount that was paid in buy- and sell-fees.
 * **Starting amount**: The amount of base currency that the trade was worth when it was opened.
 * **Capital**: The amount of base currency that the trade was worth when it was sold, or the current amount that it
 was worth at the end of the backtesting period, if trade is still open.

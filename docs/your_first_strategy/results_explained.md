@@ -64,6 +64,10 @@ This table shows the trade information combined over all whitelisted pairs.
 * **Avg. trade duration**: average duration between opening and closing a trade.
   
 * **Longest trade duration**: trade with the longest duration between opening and closing.
+
+* **Sharpe ratio (90d / 3y)**: Sharpe ratio for a timeperiod of 90 days and 3 years. Defaults to the timeperiod selected if it isn't long enough.
+
+* **Sortino ratio (90d / 3y)**: Sortino ratio for a timeperiod of 90 days and 3 years. Defaults to the timeperiod selected if it isn't long enough.
   
 * **Winning weeks (W/D/L)**: amount of weeks where the profits from the strategy outperformed the 
   BTC/USDT marketchange. W/D/L indicating how many weeks where labeled as Wins, Losses and Draws 

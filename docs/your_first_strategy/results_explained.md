@@ -57,6 +57,8 @@ profit percentage (combined over all whitelisted coins).
 * **Shortest trade duration**: duration of the trade with the shortest duration between opening and closing.
 * **Avg. trade duration**: average duration between opening and closing a trade.
 * **Longest trade duration**: duration of the trade with the longest duration between opening and closing.
+* **Sharpe ratio (90d / 3y)**: Sharpe ratio for a timeperiod of 90 days and 3 years. Defaults to the timeperiod in the config file if it isn't long enough.
+* **Sortino ratio (90d / 3y)**: Sortino ratio for a timeperiod of 90 days and 3 years. Defaults to the timeperiod in the config file if it isn't long enough.
 * **Weekly perf. vs market (W/D/L)**: amount of weeks in which the profits from the strategy outperformed the average
 marketchange for whitelisted coins. W/D/L indicating how many weeks were labeled as Wins, Losses, and Draws
 respectively.

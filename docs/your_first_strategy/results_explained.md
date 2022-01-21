@@ -44,11 +44,13 @@ This table shows the performance of the strategy on portfolio level.
 
 ### Trade Info
 This table shows the trade information combined over all whitelisted pairs.
-* **Amount of trades**: total number of trades the strategy has been able to open and close.
+* **Amount of closed trades**: total number of trades the strategy has been able to open and close.
   
 * **Avg. trades per day**: average amount of trades the strategy has performed per day.
   
 * **Left-open trades**: total amount of left open trades.
+
+* **Volume turnover (Monthly avg.)**: the average volume turnover per month. Includes only closed trades.
   
 * **Trades with loss**: total amount of trades that have closed with a negative profit percentage.
   

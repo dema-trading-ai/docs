@@ -49,6 +49,8 @@ This table shows the trade information combined over all whitelisted pairs.
 * **Avg. trades per day**: average amount of trades the strategy has performed per day.
   
 * **Left-open trades**: total amount of left open trades.
+
+* **Volume turnover (Monthly avg.)**: monthly average of volume turnover. Includes closed trades only.
   
 * **Trades with loss**: total amount of trades that have closed with a negative profit percentage.
   

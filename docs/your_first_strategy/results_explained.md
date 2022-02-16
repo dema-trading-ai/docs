@@ -44,12 +44,11 @@ to your base currency).
 This table shows the trade information combined over all whitelisted coins. A brief explanation of each of the
 terms used:
 
-
 * **Amount of trades**: total number of times the strategy has opened (buy) and closed (sell) a trade. Left-open
 trades (trades that are bought but not sold yet, by the time the backtesting period ended) are not counted in this.
 * **Avg. trades per day**: average amount of trades the strategy has performed per day.
 * **Left-open trades**: total amount of trades which were opened but not closed.
-* **Volume turnover (Monthly avg.)**: monthly average of volume turnover. Includes closed trades only.
+* **Volume turnover (Monthly avg.)**: the average volume turnover per month. Includes only closed trades.
 * **Trades with loss**: total amount of trades that have closed with a negative profit percentage.
 * **Most consecutive losses**: maximum number of trades that closed in succession with each trade having a negative
 profit percentage (combined over all whitelisted coins).

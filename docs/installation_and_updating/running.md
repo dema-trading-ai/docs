@@ -63,7 +63,7 @@ engine -sl_type "trailing"
 
 - Turn off the plotting functionality:
 ```
-engine -plots False
+engine -no-plots True
 ```
 
 - Turn on the hyperoptimization functionality:

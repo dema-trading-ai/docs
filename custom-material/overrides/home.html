@@ -95,25 +95,49 @@ a#get-paid-button:hover {
                 </a>
             </div>
             <div class="mdx-hero__image">
-                <h1 style="color: white">Install</h1>
-                <div class="tabbed-set" id="install-commands" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1"
-                                                               type="radio"><label for="__tabbed_1_1" class="install-command-label">MacOS</label>
+                <h1 style="color: white">Install or Update</h1>
+                <div class="tabbed-set" id="install-commands" data-tabs="1:3">
+
+                    <input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio">
+                    <label for="__tabbed_1_1" class="install-command-label">MacOS</label>
                     <div class="tabbed-content">
-                        <div class="highlight"><pre id="__code_0"><span></span><button class="md-clipboard md-icon"
-                                                                                       title="Copy to clipboard"
-                                                                                       data-clipboard-target="#__code_0 > code"></button><code
-                                tabindex="0">curl -fsSL https://engine-store.ams3.digitaloceanspaces.com/installing_macos.sh | /bin/bash
-</code></pre>
+                        <div class="highlight">
+                            <pre id="__code_0"><span></span>
+                                <button class="md-clipboard md-icon" title="Copy to clipboard"
+                                        data-clipboard-target="#__code_0 > code">
+                                </button>
+                                <code tabindex="0">curl -fsSL https://engine-store.ams3.digitaloceanspaces.com/installing_macos.sh | /bin/bash</code>
+                            </pre>
                         </div>
                     </div>
-                    <input id="__tabbed_1_2" name="__tabbed_1" type="radio"><label for="__tabbed_1_2" class="install-command-label">Windows</label>
+
+                    <input id="__tabbed_1_2" name="__tabbed_1" type="radio">
+                    <label for="__tabbed_1_2" class="install-command-label">Linux</label>
                     <div class="tabbed-content">
-                        <div class="highlight"><pre id="__code_1"><span></span><button class="md-clipboard md-icon"
-                                                                                       title="Copy to clipboard"
-                                                                                       data-clipboard-target="#__code_1 > code"></button><code>Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://ams3.digitaloceanspaces.com/engine-store/install-windows.ps1'))
-</code></pre>
+                        <div class="highlight">
+                            <pre id="__code_1"><span></span>
+                                <button class="md-clipboard md-icon" title="Copy to clipboard"
+                                        data-clipboard-target="#__code_1 > code">
+                                </button>
+                                <code>curl -fsSL https://engine-store.ams3.digitaloceanspaces.com/installing_linux.sh | /bin/bash</code>
+                            </pre>
                         </div>
                     </div>
+
+                    <input id="__tabbed_1_3" name="__tabbed_1" type="radio">
+                    <label for="__tabbed_1_3" class="install-command-label">Windows</label>
+                    <div class="tabbed-content">
+                        <div class="highlight">
+                            <pre id="__code_2">
+                                <span></span>
+                                <button class="md-clipboard md-icon" title="Copy to clipboard"
+                                        data-clipboard-target="#__code_2 > code">
+                                </button>
+                                <code>Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://ams3.digitaloceanspaces.com/engine-store/install-windows.ps1'))</code>
+                            </pre>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

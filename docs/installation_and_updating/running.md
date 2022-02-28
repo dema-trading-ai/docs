@@ -66,12 +66,12 @@ engine -sl_type "trailing"
 engine -no-plots True
 ```
 
-- Turn on the hyperoptimization functionality:
+- Turn on the hyperparameter optimization functionality:
 ```
 engine -hy True
 ```
 
-- Set the number of trials for the hyperoptimization functionality:
+- Set the number of trials for the hyperparameter optimization functionality:
 ```
 engine -hy True -nt 50
 ```

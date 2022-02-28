@@ -83,12 +83,12 @@ engine -ex True
 
 - Set the resources directory (that contains the config file):
 ```
-engine -r ./resources
+engine -r "./resources"
 ```
 
 - Set the strategies directory (that contains the strategy file):
 ```
-engine -sf ./strategies
+engine -sf "./strategies"
 ```
 
 - Run the Engine without Engine Use Statistics:

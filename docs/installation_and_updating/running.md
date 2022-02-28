@@ -85,3 +85,6 @@ engine -ex True
 ```
 engine -nostat True
 ```
+
+The Engine Use Statistics pertains to the statistics we collect about the Engine usage. We only collect completely
+anonymised user ID's, current Engine version, and when the Engine was run.
